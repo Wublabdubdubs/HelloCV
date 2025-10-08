@@ -1,1 +1,1 @@
-hello world
+\ngood world
