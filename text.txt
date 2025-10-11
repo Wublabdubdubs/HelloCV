@@ -1,1 +1,4 @@
-It's a beautiful day outside
+
+[Linux 系统搭建(日记)](https://www.yuque.com/wublabdubdub/ttq760/axyw27l8r2dishmd#)
+[Git 版本控制](https://www.yuque.com/wublabdubdub/ttq760/uo3k5xx3d396pyoq#)
+[开发工具的安装与配置](https://www.yuque.com/wublabdubdub/ttq760/yr5u0ri93uyrnzmp#)
