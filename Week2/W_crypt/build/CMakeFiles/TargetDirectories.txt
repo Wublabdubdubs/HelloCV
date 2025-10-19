@@ -1,0 +1,3 @@
+/home/wublabdubdub/Learn/DFG/Week2/W_crypt/build/CMakeFiles/CrytoTool.dir
+/home/wublabdubdub/Learn/DFG/Week2/W_crypt/build/CMakeFiles/edit_cache.dir
+/home/wublabdubdub/Learn/DFG/Week2/W_crypt/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/CrytoTool.dir/src/Menu.cpp.o CMakeFiles/CrytoTool.dir/src/main.cpp.o -o ../bin/CrytoTool 

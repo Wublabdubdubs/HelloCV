@@ -1,0 +1,5 @@
+FROM centos
+MAINTAINER wublabdubdub
+RUM yum -y install vim
+RUN yum -y install net-tools 
+CMD /bin/bash
