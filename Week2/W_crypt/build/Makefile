@@ -129,6 +129,30 @@ CrytoTool/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrytoTool.dir/build.make CMakeFiles/CrytoTool.dir/build
 .PHONY : CrytoTool/fast
 
+src/Crypto.o: src/Crypto.cpp.o
+.PHONY : src/Crypto.o
+
+# target to build an object file
+src/Crypto.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrytoTool.dir/build.make CMakeFiles/CrytoTool.dir/src/Crypto.cpp.o
+.PHONY : src/Crypto.cpp.o
+
+src/Crypto.i: src/Crypto.cpp.i
+.PHONY : src/Crypto.i
+
+# target to preprocess a source file
+src/Crypto.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrytoTool.dir/build.make CMakeFiles/CrytoTool.dir/src/Crypto.cpp.i
+.PHONY : src/Crypto.cpp.i
+
+src/Crypto.s: src/Crypto.cpp.s
+.PHONY : src/Crypto.s
+
+# target to generate assembly for a file
+src/Crypto.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrytoTool.dir/build.make CMakeFiles/CrytoTool.dir/src/Crypto.cpp.s
+.PHONY : src/Crypto.cpp.s
+
 src/Menu.o: src/Menu.cpp.o
 .PHONY : src/Menu.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CrytoTool"
+	@echo "... src/Crypto.o"
+	@echo "... src/Crypto.i"
+	@echo "... src/Crypto.s"
 	@echo "... src/Menu.o"
 	@echo "... src/Menu.i"
 	@echo "... src/Menu.s"

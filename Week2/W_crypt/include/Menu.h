@@ -6,7 +6,9 @@ class Menu
     public:
         
         void Hello();
-        
+        void Error(int op);
+        void Work();
+        void End();
     private:
 
 };
