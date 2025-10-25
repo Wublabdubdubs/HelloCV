@@ -1,0 +1,569 @@
+## 什么是OpenCV
+~~（有一说一这是我六篇笔记中第六篇“什么是”开头的了）~~
+
+OpenCV 是一个广为使用的计算机视觉库，内置了许多与计算机视觉有关的库文件
+
+可以支持图像的载入，识别，处理，显示，输出图像并且有基础的UI功能（UI功能仅仅是为了进行简单的图片调试，请不要试图以其代替正经的UI图形库）
+
+## 安装
+安装与环境配置一直是初学者头疼的大问题，但稍有经验就会发现大同小异：
+
+1. 使用任意恰当的方式（一般是官网）获取安装包
+2. 在本地解压/运行安装包 （Windows 下一般是双击exe或解压zip，Linux一般是apt/pkgd命令）
+3. 配置环境变量（path）
+
+具体而言，笔者在安装ROS时借助鱼香神力意外完成了Opencv的安装，此处不再赘述。
+
+但是这里并不会空无一物，环境的配置依然是个问题：
+
+当我写下第一个opencv有关的程序，并利用cmake完成运行，高昂的兴致却被某个东西打破：
+
+![](https://cdn.nlark.com/yuque/0/2025/png/61501673/1761134453068-9e9841b0-12fa-4e21-a895-86938e43e0d6.png)
+
+是的，它不影响编译和运行，但是，谁能顶着4条红线和4个报错平心静气地编程呢？
+
+这四条红线出现的原因很简单，cmake会在编译时寻找opencv库并连接，但vscode不会
+
+解决也不难：
+
+打开VScode的设置，c++插件的部分，把`/usr/include/opencv4`添加到这个选项下重启就行了（如果你的opencv装在了不同目录下，要写你对应的目录）
+
+![](https://cdn.nlark.com/yuque/0/2025/png/61501673/1761134390415-d40660a6-4830-445f-9918-cab0ce1ad9e5.png)
+
+## 使用
+### 图片
+来一份最简单的opencv实例，体验一下（未能成功运行也请先读下文）：
+
+```cpp
+#include<iostream>
+#include<opencv2/opencv.hpp>
+
+using namespace std;
+using namespace cv;
+
+int main()
+{
+    string path="../data/Example.png";
+    Mat img=imread(path);
+    imshow("Image",img);
+    waitKey(0);
+    return 0;
+}
+```
+
+通过猜测，我们来捋一下几个新面孔的功能：
+
+`Mat` 类型：这是Opencv中用于储存图片的变量类型
+
+`imread` ：image-read 读取图片，传入图片地址，返回图片内容
+
+`imshow` ：image-show 展示图片，传入图片名称和内容，弹出窗口显示图片
+
+`waitKey`：等待键入，即终止程序，等待用户按键
+
+参数是等待时间，单位为ms，特别地，参数为0表示无限
+
+若运行失败，可能因为（由真实事件改编）：
+
+1. 抄错函数名（笔者连错三次）
+2. 写错路径，经验证，若写相对路径，请以makefile所在路径为起点，否侧应使用绝对路径。另外，注意后缀名，png or jpg
+3. 压根没放图片，巧妇难为无米之炊，目录下没有图片，它当然显示不出来
+
+好的，你已经完成了图片的读取和显示，挺简单的，对吧
+
+### 视频
+视频的获取与图片相似，又稍有不同
+
+图片是由一帧接着一帧的图片组成的，我们采取一帧接着一帧获取图像，再依次显示的方式来显示一段视频。
+
+事实上，我们这样写：
+
+```cpp
+#include<iostream>
+#include<opencv2/opencv.hpp>
+
+using namespace std;
+using namespace cv;
+
+int main()
+{
+    VideoCapture cap("../data/Example.webm");
+    // if(!cap.isOpened()) return -1;
+    for(;;)
+        {
+            Mat frame;
+            cap.read(frame);
+            if(frame.empty()) break;
+            imshow("Videa",frame);
+            if(waitKey(30)>=0) break;
+        }
+    cap.release();
+    return 0;
+}
+```
+
+首先，实现思路和上文是一致的，即不断抓取图像，然后显示。
+
+细节上，让我再认识几个新面孔：
+
+1. `VideoCapture` 类型：
+
+用于储存视频的类型，它也可以初始化为视频（括号里写视频的路径，如"../data/Example.webm"，若你用的视频是其他名字，记得更换），也可以使用`VideoCapture::open(path)`来为其赋值（上例中中用`cap.open(../data/Example.webm)`）。
+
+2. `VideoCapture::read`函数，可以用于读取该变量的下一帧画面，通过无限循环（直到取完再退出）即可将视频里的每一帧依次赋值给`Mat`类变量，再结合`waitKey`实现逐个显示
+3. 这里补充一下`waitKey()`函数的功能是等待键入，当无键入时返回`-1`，有键入则返回键入值对应的ASCLL码值，这使得它不但可以控制视频的播放速度，也是实现与用户交互的有利手段
+4. `cap.release()`的功能是释放视频文件，类似于变量用完后的释放空间，其实程序结束时系统会自动释放程序调用的所有数据，但有主动释放的习惯是一件好事（有点像随手把垃圾扔进垃圾桶）
+
+### 摄像头
+那么首先，我们需要让虚拟机连接上摄像头
+
+1. 保证主机上的摄像头正常连接并正常使用
+2. 在虚拟机上安装VMware Tools（一般自带，鼠标可以不受限制从虚拟机中移动到主机上就是它提供的，没有的话，上网搜索一下，十分简单）
+3. 确保虚拟机的设置中有USB接口这一项并且选用3.1版（更快）
+4. 如下图接入摄像头
+
+![](https://cdn.nlark.com/yuque/0/2025/png/61501673/1761136684970-baf9c46d-f4c3-4bee-8402-449134600a86.png)
+
+5. 检查`ls /dev`来检查是否有video0文件夹（即检查是否接入成功）
+
+之后就可以写代码啦
+
+```cpp
+#include<iostream>
+#include<opencv2/opencv.hpp>
+
+using namespace std;
+using namespace cv;
+
+int main()
+{
+    VideoCapture cap(0);
+    if(!cap.isOpened()) return -1;
+    for(;;)
+        {
+            Mat frame;
+            cap.read(frame);
+            if(frame.empty()) break;
+            imshow("Videa",frame);
+            if(waitKey(1)>=0) break;
+        }
+    cap.release();
+    return 0;
+}
+```
+
+我们发现其实这段代码和上面大同小异，区别就是把视频路径换成了 0 ，这里的 0 代表默认的零号摄像头，其他过程和上面是一样的
+
+## 基础图像处理
+### 寻找边缘
+看看我们上面的努力，我们能显示图片，视频和摄像头，太棒了？——但好像文件管理器也可以做到
+
+所以，我们至少要对图像进行基本的处理，才能被称作基本功能，不是吗？
+
+虽然我很想先进行一些基本的导入，再十分有趣地讲解这部分内容，但事实上，认识函数，混个脸熟才更像是这一部分的重点，所以，还是先上代码，再作解释
+
+```cpp
+#include<iostream>
+#include<opencv2/opencv.hpp>
+
+using namespace std;
+using namespace cv;
+
+int main()
+{
+    VideoCapture cap(0);
+    if(!cap.isOpened()) return -1;
+    for(;;)
+        {
+            Mat frame;
+            cap.read(frame);
+            if(frame.empty()) return 0;
+            imshow("Videa",frame);
+
+            Mat fr_gray,fr_blur,fr_canny,fr_blur_canny,fr_dila,fr_erode;
+
+            cvtColor(frame,fr_gray,COLOR_BGR2GRAY); //gray
+            imshow("Videa_Gray",fr_gray);
+
+            GaussianBlur(frame,fr_blur,Size(5,5),0,0); //blur
+            imshow("Videa_blur",fr_blur);
+
+            // Canny(frame,fr_canny,50,150); //Canny
+            // imshow("Videa_canny",fr_canny);
+            Canny(fr_blur,fr_blur_canny,50,150);
+            imshow("Videa_blur_canny",fr_blur_canny);
+
+            Mat kernel=getStructuringElement(MORPH_RECT,Size(5,5)); //dilate
+            dilate(fr_blur_canny,fr_dila,kernel);
+            imshow("Videa_dilate",fr_dila);
+
+            erode(fr_dila,fr_erode,kernel); //erode
+            imshow("Videa_erode",fr_erode);
+
+            if(waitKey(30)>=0) break;
+        }
+    cap.release();
+    return 0;
+}
+```
+
+这里使用的是摄像头，虽然不如现成的图片容易成功，但是实时的交互会让这个过程变得有趣，（当然这也意味着我需要在上传例图的时候做出**巨大的牺牲，巨大的carry**），好了，我们来认识一下这几个新伙伴：
+
+1. 首先，这几个函数的前两个参数作用都一样，第一个是输入的原始图片，第二个是处理后输出的图片该存放的变量
+2. `cvtColor` 图片格式转换函数，第三个参数是转换方式，例子中为 BGR 2(to) Gray 
+
+注意，我们平时使用 RGB 编码颜色，但opencv中统一使用 BGR ，即在存储一个像素的三个字节中，第一个表示蓝色，第二个表示绿色，第三个表示红色。
+
+Gray 则表示单通道灰度图像，即每个像素仅用一个用来表示亮度的字节储存
+
+3. `GaussianBlur`高斯滤波（模糊），是一种通过取加权平均数来去除噪声的手段（感官上就是图像变模糊了），其中第三个参数是高斯算子的大小。这里的算子指的是一个矩阵（长宽必须均为奇数），矩阵内各个数字即为加权的权值，每个像素以周围的加权平均数代替
+4. `Canny`边缘扫描算法，经历了一番努力，仍未弄懂这东西是怎么运作的，后两个参数是阈值，目测参数越小对边界越敏感
+5. `dilate/erode` 扩张/侵蚀，使图像沿着边缘变大/变小
+
+总结上述过程：首先，将图像模糊以减少噪声的影响，再扫描出它的边缘，通过扩张连接扫出来的边缘的小断口，最后侵蚀再使边缘变窄
+
+### 剪裁
+首先我们需要了解图像的原始大小：`cout<< img.size() <<endl;` 即可
+
+![](https://cdn.nlark.com/yuque/0/2025/png/61501673/1761286416389-3bfbeed8-f428-468b-b8c7-a7699cd8ea10.png)
+
+之后我们就可以使用函数调整图片大小
+
+`resize(inputMat,outputMat,size(height,width));`即可将图片放缩到指定大小
+
+`resize(inputMat,outputMat,size(),dx,dy);`即可将图片放缩到指定比例（由最后两个参数指定）
+
+在实际过程中，为了针对图像的特定部分进行处理，我们会截取其中的一部分（剪裁）
+
+为了实现这个处理，我们要先定义一个`Rect`类型的变量，并使用括号为它赋一个初始值，，分别是起始位置的(x,y)坐标和高度，宽度
+
+然后`outputMat=inputMat(Rect)`即可完成处理
+
+```cpp
+#include<iostream>
+#include<opencv2/opencv.hpp>
+
+using namespace std;
+using namespace cv;
+
+int main()
+{
+    VideoCapture cap(0);
+    if(!cap.isOpened()) return -1;
+    for(;;)
+    {
+        Mat frame;
+        cap.read(frame);
+        if(frame.empty()) return 0;
+
+        Mat resize_1,resize_2;
+        resize(frame,resize_1,Size(1000,700));
+        imshow("Resize1",resize_1);
+        resize(frame,resize_2,Size(),0.5,0.5);
+        imshow("Resize2",resize_2);
+        Rect roi(200,200,200,200);
+        Mat fr_roi=frame(roi);
+        imshow("ROI",fr_roi);
+        if(waitKey(1000)>=0) break;
+    }
+    cap.release();
+    return 0;
+
+    
+```
+
+![上述代码的运行结果](https://cdn.nlark.com/yuque/0/2025/png/61501673/1761287444645-e4d9c220-6bb1-4d9e-b6a7-8713d0a905c4.png)
+
+~~（该图像疑似使用AI技术生成，请注意甄别）~~
+
+### 创建图像
+> _**I am the bone of my image  **_无限图制
+>
+
+创建一个纯色的图片很简单，使用构造函数就行`Mat(height,width,type,color)`
+
+```cpp
+#include<iostream>
+#include<opencv2/opencv.hpp>
+
+using namespace std;
+using namespace cv;
+int main()
+{
+    Mat img(512,512,CV_8UC3,Scalar(255,0,255));
+    imshow("Creat",img);
+    waitKey(0);
+    return 0;
+}
+```
+
+前两个参数很好理解，第三个参数是图像类型，CV_开头，8代表8位，即色彩空间从0到255，3代表3条通道，分别是BGR，即blue，green，red，后续的 Scalar 用于构造一个颜色，三个参数分别是每个通道的亮度，例子中为255蓝色和255红色的结合也就是亮紫色。
+
+![](https://cdn.nlark.com/yuque/0/2025/png/61501673/1761288704776-006af134-7b5a-487f-bb36-4f5e9bcc1373.png)
+
+纯色的图片其实没啥用，让我们画个圆试试
+
+`circle(img,Point(start_x,start_y),r,color,thick);`
+
+参数含义就在这句里了，唯有`r`需要说明一下，可以写`FILLED`表示填充
+
+`circle(img,Point(256,256),128,Scalar(187,197,57),64);`
+
+![这里查一个浓度，这个颜色是谁的代表色](https://cdn.nlark.com/yuque/0/2025/png/61501673/1761290998615-b6676722-fb46-41a5-985e-2a7048100645.png)
+
+长方形传入左上角和右下角，其他参数相似
+
+`rectangle(img,Point(130,226),Point(382,286),Scalar(200,1000,234),FILLED);`
+
+![](https://cdn.nlark.com/yuque/0/2025/png/61501673/1761291386944-cb8580b8-18f5-46e8-9395-0127a14aea8d.png)
+
+直线需要起点和终点`line(img,Point(1,1),Point(255,255),Scalar(0,0,255),50);`
+
+输出文本需要依次传入文本内容，左上角位置，字体，比例，以及颜色
+
+`putText(img,"我要玩终末地",Point(137,262),FONT_HERSHEY_DUPLEX,0.75,Scalar(255,0,0),2);`
+
+上面堆在一起长这样：
+
+![我知道很丑，只不过是调试，能捋清楚语义就行](https://cdn.nlark.com/yuque/0/2025/png/61501673/1761292326900-8d425e86-13e8-4efb-8745-f8dcad4f0ab8.png)
+
+
+
+### 扭曲一张图片
+通过`warpPerspective(input,output,Matrix,Point(x,y));`可以压缩/拉伸一张图片
+
+其中，`Matrix`是变化矩阵，可以通过 `Mat Matrix = getPerspectiveTransform(src[],dst[]);`求得
+
+其中`src`是存储原图多边形顶点的数组，`dst`是储存目标位点的数组
+
+但是，目前手动测量像素的方法过于鸡肋，因此不作演示
+
+### 更灵活的交互
+目前，无论是处理轮廓还是提取图中某物，调参都是关键，艰巨，而痛苦的真是受不了了！
+
+是什么让调参如此折磨？每次调参只能靠猜，改完一遍还要重新编译运行，如果能实时看到反馈，那参数自然容易调
+
+让我们看看有什么函数能帮帮我们。。。。。。
+
+哦！Trackbar！
+
+制作一个可以拖动的轨迹条，这可太棒了！
+
+写起来很简单：`createTrackbar("name","name of window",address of the var,max_value)`
+
+变量依次是轨迹条的名字，显示窗口的名字，变量地址，最大值，有了这些，我们可以搞个小程序测试一下功能：
+
+```cpp
+#include<iostream>
+#include<opencv2/opencv.hpp>
+
+using namespace std;
+using namespace cv;
+int a;
+int main()
+{
+    
+    namedWindow("TrackBars",(620,200));
+    createTrackbar("try","TrackBars",&a,10000);
+    while(1)
+    {
+        cout<<a<<endl;
+        if(waitKey(1000)>=0) break;
+    }
+    return 0;
+}
+```
+
+随着我们拖动进度条，输出a的值不断变化，很好！
+
+### 识别颜色
+让我们做点稍微复杂的练习：在图片中识别颜色
+
+使用`inRange(input,colormin,colormax,output)`函数可以提取出一张图片中所有符合条件的点（标记为纯白，其余纯黑）
+
+现在我们可以使用轨迹条调参了，那么相比BGR格式，更符合人类直觉的HSV（色调，饱和度，亮度）更适合我们
+
+```cpp
+#include<iostream>
+#include<opencv2/opencv.hpp>
+
+using namespace std;
+using namespace cv;
+int a;
+int H_min,S_min,V_min;
+int H_max,S_max,V_max;
+int main()
+{
+    VideoCapture cap(0);
+    namedWindow("control table",(720,600));
+    createTrackbar("H_min","control table",&H_min,255);
+    createTrackbar("H_max","control table",&H_max,255);
+    createTrackbar("S_min","control table",&S_min,255);
+    createTrackbar("S_max","control table",&S_max,255);
+    createTrackbar("V_min","control table",&V_min,255);
+    createTrackbar("V_max","control table",&V_max,255);
+    while(1)   
+    {
+        Mat frame;
+        cap>>frame;
+        imshow("Origin",frame);
+        Mat res;
+        Scalar down(H_min,S_min,V_min);
+        Scalar up(H_max,S_max,V_max);
+        inRange(frame,down,up,res);
+        imshow("Res",res);
+        if(waitKey(30)>=0) break;
+    }
+    return 0;
+}
+```
+
+通过以上代码以及一段时间的的调试，你几乎可以锁定任何一个你需要的图像了
+
+![](https://cdn.nlark.com/yuque/0/2025/png/61501673/1761307057388-de585523-3589-4b9b-8b70-873c15639f10.png)
+
+（可以看到，效果还是比较显著的）
+
+### 识别图形
+先重复第一部分，做一些预处理
+
+```cpp
+#include<iostream>
+#include<opencv2/opencv.hpp>
+
+using namespace std;
+using namespace cv;
+
+int main()
+{
+    Mat img=imread("../data/E.png");
+    Mat img_gray,img_blur,img_canny,img_dil,img_ero;
+    cvtColor(img,img_gray,COLOR_BGR2GRAY);
+    GaussianBlur(img_gray,img_blur,Size(5,5),0,0);
+    Canny(img_gray,img_canny,25,75);
+    Mat K=getStructuringElement(MORPH_RECT,Size(5,5));
+    dilate(img_canny,img_dil,K);
+    erode(img_dil,img_ero,K);
+    imshow("Show",img_ero);
+    waitKey(0);
+    return 0;
+}
+```
+
+![](https://cdn.nlark.com/yuque/0/2025/png/61501673/1761308646104-fdc08857-38f4-4fae-9294-d9a2f36ee874.png)
+
+为了处理轮廓，我们必须认识这样一个函数：`findContours`
+
+它的传参相对复杂，第一个参数是输入图像，第二个参数是一个vector<Point>类型的vector，其中每一个vector<Point>存储一个轮廓，第二个参数是vec4i类型的vector，用来记录每个轮廓的层级等信息，之后，两个参数决定寻找轮廓的标准
+
+```cpp
+
+void getContours(Mat input,Mat output)
+{
+    vector<vector<Point> >contours;
+    vector<Vec4i> hierarchy;
+    
+    findContours(input,contours,hierarchy,RETR_EXTERNAL,CHAIN_APPROX_SIMPLE);
+    drawContours(output,contours,-1,Scalar(255,0,255),2);
+    return ;
+}
+```
+
+上述示例中使用drawContours（其中-1表示全部，换成别的数表示画某一个特定轮廓）紫色将轮廓画在output上
+
+**PS： **值得注意的一点发现：上文中findcontours并不会把所有的点都存进数组里，而是储存它认为的拐点，这里drawContours会将若干个分立的点依次输出并将相邻点连线输出
+
+![](https://cdn.nlark.com/yuque/0/2025/png/61501673/1761370957188-10b6e25f-df21-49ce-b519-68e81bdf592e.png)
+
+但正如上图所示，图中难免有点噪音，让我们想点办法
+
+比如用面积进行过滤
+
+```cpp
+for(int i=0;i<contours.size();i++)
+{
+    int S=contourArea(contours[i]);
+    cout<<S<<"\n";
+    if(S>6329)
+        drawContours(output,contours,i,Scalar(255,0,255),2);
+}
+```
+
+contourArea用于计算面积
+
+边界"6329"是由输出看出来的，当然使用轨迹条改变参数也是可行的办法
+
+![](https://cdn.nlark.com/yuque/0/2025/png/61501673/1761371797028-1238b78d-cc02-4c46-b3bc-4000cc63a3d0.png)
+
+下一步，为了区分图形，我们需要对其进行多边形拟合`approxPolyDP`函数可以做到这一点，Point类型的数组作为输入输出，同时还需要一个拟合精度，这个精度可以设置为定值，但依据教程中的说明，我们可以使用0.02*周长来取得较为不错的效果，周长通过arcLength函数求得，将函数中的循环改成这样：
+
+```cpp
+for(int i=0;i<contours.size();i++)
+{
+    int S=contourArea(contours[i]);
+    cout<<S<<"\n";
+    if(S>6329)
+    {
+        double peri =arcLength(contours[i],1);
+        approxPolyDP(contours[i],Poly[i],0.02*peri,1);
+        drawContours(output,Poly,i,Scalar(255,0,255),2);
+    }
+}
+```
+
+得到
+
+![](https://cdn.nlark.com/yuque/0/2025/png/61501673/1761373508250-fcc2a9d5-27c8-4765-99d3-82c7279a0694.png)
+
+现在，我们其实一已经获得了识别形状的能力，但是，为了输出，我们还需要做一些准备
+
+首先我们可以用`boundingRect`函数求出一个轮廓的外接矩形（传入点集），它会返回一个Rect类型的结果，Rect类型中储存了矩形的左上角以及长度宽度
+
+接下来我们要将其绘制在屏幕上，此时因为我们的矩形不再是点集储存，因此我们不能使用drawcontours完成这个任务，`rectangle`会是更好的选择，我们只需要依次传入要绘制的图像，矩形的左上和右下角以及边框颜色宽度信息即可具体而言，在上述代码上添加：
+
+```cpp
+bdRect[i]=boundingRect(Poly[i]);
+rectangle(output,bdRect[i].tl(),bdRect[i].br(),Scalar(0,255,0),3);
+```
+
+就会得到
+
+![](https://cdn.nlark.com/yuque/0/2025/png/61501673/1761374944862-b396d2b4-187d-4d2f-95af-539d6002a3dc.png)
+
+判断形状是较为简单的，正如前文，其实我们的边界储存时用的都是顶点，所以拟合后的多边形更是如此，因此只要根据顶点数量就可以确定形状
+
+```cpp
+string txt;
+if(Poly[i].size()==3) txt="Tri";
+else if(Poly[i].size()==4) txt="Rect";
+else txt="Cir";
+putText(output,txt,Point(bdRect[i].x,bdRect[i].y-10),FONT_HERSHEY_COMPLEX,1,Scalar(187,197,57),2);
+```
+
+![](https://cdn.nlark.com/yuque/0/2025/png/61501673/1761377236302-a572a771-cae1-47b2-b071-82d8a443fcc5.png)
+
+## 实践
+经历上述学习，我们的实践任务就显得轻松了许多
+
+处理红绿灯，首先提取红色和绿色
+
+可以通过`inRange`实现，但是需要调参，视频太快/太慢都不太方便，因此我更推荐逐帧等待按键
+
+```cpp
+Scalar down(H_min,S_min,V_min);
+Scalar up(H_max,S_max,V_max);
+inRange(ori,down,up,img_green);;
+imshow("Ori",ori);
+imshow("Res",img_green);
+if(waitKey(0)>=0) continue;
+```
+
+最后获得参数如下
+
+```cpp
+inRange(ori,Scalar(100,129,0),Scalar(207,247,80),img_green);
+inRange(ori,Scalar(13,14,131),Scalar(116,120,255),img_red);
+```
+
+之后的操作就比较板了，提取红色和绿色，然后识别轮廓，找到面积明显的大的就是目标，框起来就行了
+
