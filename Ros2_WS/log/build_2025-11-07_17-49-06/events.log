@@ -1,0 +1,494 @@
+[0.000000] (-) TimerEvent: {}
+[0.000430] (-) JobUnselected: {'identifier': 'my_interface'}
+[0.000471] (-) JobUnselected: {'identifier': 'parameter'}
+[0.000498] (-) JobUnselected: {'identifier': 'service'}
+[0.000519] (-) JobUnselected: {'identifier': 'topic'}
+[0.000546] (demo_tf) JobQueued: {'identifier': 'demo_tf', 'dependencies': OrderedDict()}
+[0.000575] (demo_tf) JobStarted: {'identifier': 'demo_tf'}
+[0.026106] (demo_tf) JobProgress: {'identifier': 'demo_tf', 'progress': 'cmake'}
+[0.026501] (demo_tf) JobProgress: {'identifier': 'demo_tf', 'progress': 'build'}
+[0.026557] (demo_tf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf', '--', '-j2', '-l2'], 'cwd': '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'wublabdubdub'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wublabdubdub'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/wublabdubdub/Learn/DFG'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1275'), ('BUNDLED_DEBUGPY_PATH', '/home/wublabdubdub/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'wublabdubdub'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wublabdubdub'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/wublabdubdub/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/wublabdubdub-virtual-machine:@/tmp/.ICE-unix/1228,unix/wublabdubdub-virtual-machine:/tmp/.ICE-unix/1228'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2dcf95e0_4c58_47f3_abc9_df79ee6ebf35'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/wublabdubdub/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-10fb1a4408edaf18.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/wublabdubdub/.config/Code/User/workspaceStorage/da1ffa76adde7033d99774a56fca7fd4/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J1DHF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7a350d8b12.sock'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/parameter:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/parameter:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf:/opt/ros/humble')]), 'shell': False}
+[0.097395] (-) TimerEvent: {}
+[0.201328] (-) TimerEvent: {}
+[0.231367] (demo_tf) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.301501] (-) TimerEvent: {}
+[0.402570] (-) TimerEvent: {}
+[0.503839] (-) TimerEvent: {}
+[0.608958] (-) TimerEvent: {}
+[0.709407] (-) TimerEvent: {}
+[0.772107] (demo_tf) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.809593] (-) TimerEvent: {}
+[0.913212] (-) TimerEvent: {}
+[0.922474] (demo_tf) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.942571] (demo_tf) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.971798] (demo_tf) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.994059] (demo_tf) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.013465] (-) TimerEvent: {}
+[1.042560] (demo_tf) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.114671] (-) TimerEvent: {}
+[1.169685] (demo_tf) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.178722] (demo_tf) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.215080] (-) TimerEvent: {}
+[1.316266] (-) TimerEvent: {}
+[1.420460] (-) TimerEvent: {}
+[1.522656] (-) TimerEvent: {}
+[1.545474] (demo_tf) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.625974] (-) TimerEvent: {}
+[1.676671] (demo_tf) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.728049] (-) TimerEvent: {}
+[1.832485] (-) TimerEvent: {}
+[1.935645] (-) TimerEvent: {}
+[1.996551] (demo_tf) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.010370] (demo_tf) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.012307] (demo_tf) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.021440] (demo_tf) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.036025] (-) TimerEvent: {}
+[2.138431] (-) TimerEvent: {}
+[2.194328] (demo_tf) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.194990] (demo_tf) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.196085] (demo_tf) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.196298] (demo_tf) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.198333] (demo_tf) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.199033] (demo_tf) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.201836] (demo_tf) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.202515] (demo_tf) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.238631] (-) TimerEvent: {}
+[2.265589] (demo_tf) StdoutLine: {'line': b'-- Generating done\n'}
+[2.280995] (demo_tf) StdoutLine: {'line': b'-- Build files have been written to: /home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf\n'}
+[2.338787] (-) TimerEvent: {}
+[2.402263] (demo_tf) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target static_tf_broadcaster\x1b[0m\n'}
+[2.421131] (demo_tf) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dynamic_tf_broadcaster\x1b[0m\n'}
+[2.438972] (-) TimerEvent: {}
+[2.515038] (demo_tf) StdoutLine: {'line': b'[ 33%] Built target static_tf_broadcaster\n'}
+[2.535025] (demo_tf) StdoutLine: {'line': b'[ 66%] Built target dynamic_tf_broadcaster\n'}
+[2.543017] (-) TimerEvent: {}
+[2.643498] (-) TimerEvent: {}
+[2.685146] (demo_tf) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/tf_listener.dir/src/tf_listener.cpp.o\x1b[0m\n'}
+[2.743713] (-) TimerEvent: {}
+[2.847173] (-) TimerEvent: {}
+[2.947718] (-) TimerEvent: {}
+[3.048673] (-) TimerEvent: {}
+[3.149207] (-) TimerEvent: {}
+[3.253310] (-) TimerEvent: {}
+[3.353753] (-) TimerEvent: {}
+[3.454540] (-) TimerEvent: {}
+[3.556862] (-) TimerEvent: {}
+[3.664186] (-) TimerEvent: {}
+[3.767277] (-) TimerEvent: {}
+[3.868385] (-) TimerEvent: {}
+[3.969492] (-) TimerEvent: {}
+[4.074314] (-) TimerEvent: {}
+[4.178752] (-) TimerEvent: {}
+[4.282420] (-) TimerEvent: {}
+[4.386015] (-) TimerEvent: {}
+[4.487968] (-) TimerEvent: {}
+[4.589849] (-) TimerEvent: {}
+[4.694445] (-) TimerEvent: {}
+[4.797219] (-) TimerEvent: {}
+[4.899230] (-) TimerEvent: {}
+[5.003174] (-) TimerEvent: {}
+[5.108825] (-) TimerEvent: {}
+[5.209872] (-) TimerEvent: {}
+[5.311424] (-) TimerEvent: {}
+[5.412895] (-) TimerEvent: {}
+[5.514486] (-) TimerEvent: {}
+[5.616869] (-) TimerEvent: {}
+[5.719269] (-) TimerEvent: {}
+[5.821630] (-) TimerEvent: {}
+[5.923572] (-) TimerEvent: {}
+[6.026403] (-) TimerEvent: {}
+[6.130011] (-) TimerEvent: {}
+[6.230658] (-) TimerEvent: {}
+[6.332349] (-) TimerEvent: {}
+[6.435018] (-) TimerEvent: {}
+[6.537587] (-) TimerEvent: {}
+[6.638297] (-) TimerEvent: {}
+[6.740570] (-) TimerEvent: {}
+[6.843362] (-) TimerEvent: {}
+[6.946382] (-) TimerEvent: {}
+[7.047747] (-) TimerEvent: {}
+[7.150054] (-) TimerEvent: {}
+[7.251379] (-) TimerEvent: {}
+[7.353398] (-) TimerEvent: {}
+[7.454812] (-) TimerEvent: {}
+[7.556630] (-) TimerEvent: {}
+[7.658784] (-) TimerEvent: {}
+[7.760397] (-) TimerEvent: {}
+[7.861580] (-) TimerEvent: {}
+[7.962756] (-) TimerEvent: {}
+[8.063739] (-) TimerEvent: {}
+[8.164834] (-) TimerEvent: {}
+[8.265587] (-) TimerEvent: {}
+[8.366278] (-) TimerEvent: {}
+[8.468048] (-) TimerEvent: {}
+[8.569669] (-) TimerEvent: {}
+[8.673821] (-) TimerEvent: {}
+[8.774414] (-) TimerEvent: {}
+[8.877373] (-) TimerEvent: {}
+[8.980028] (-) TimerEvent: {}
+[9.081145] (-) TimerEvent: {}
+[9.184228] (-) TimerEvent: {}
+[9.285436] (-) TimerEvent: {}
+[9.387800] (-) TimerEvent: {}
+[9.488650] (-) TimerEvent: {}
+[9.590220] (-) TimerEvent: {}
+[9.691377] (-) TimerEvent: {}
+[9.792797] (-) TimerEvent: {}
+[9.894196] (-) TimerEvent: {}
+[9.996224] (-) TimerEvent: {}
+[10.098849] (-) TimerEvent: {}
+[10.201257] (-) TimerEvent: {}
+[10.302992] (-) TimerEvent: {}
+[10.403512] (-) TimerEvent: {}
+[10.506340] (-) TimerEvent: {}
+[10.608033] (-) TimerEvent: {}
+[10.709318] (-) TimerEvent: {}
+[10.812800] (-) TimerEvent: {}
+[10.915204] (-) TimerEvent: {}
+[11.015878] (-) TimerEvent: {}
+[11.118159] (-) TimerEvent: {}
+[11.221171] (-) TimerEvent: {}
+[11.324248] (-) TimerEvent: {}
+[11.424781] (-) TimerEvent: {}
+[11.527733] (-) TimerEvent: {}
+[11.629326] (-) TimerEvent: {}
+[11.730235] (-) TimerEvent: {}
+[11.831611] (-) TimerEvent: {}
+[11.934493] (-) TimerEvent: {}
+[12.036830] (-) TimerEvent: {}
+[12.140991] (-) TimerEvent: {}
+[12.241579] (-) TimerEvent: {}
+[12.344485] (-) TimerEvent: {}
+[12.446090] (-) TimerEvent: {}
+[12.548000] (-) TimerEvent: {}
+[12.651075] (-) TimerEvent: {}
+[12.751603] (-) TimerEvent: {}
+[12.855104] (-) TimerEvent: {}
+[12.957408] (-) TimerEvent: {}
+[13.059203] (-) TimerEvent: {}
+[13.160664] (-) TimerEvent: {}
+[13.261830] (-) TimerEvent: {}
+[13.365324] (-) TimerEvent: {}
+[13.466871] (-) TimerEvent: {}
+[13.570060] (-) TimerEvent: {}
+[13.670656] (-) TimerEvent: {}
+[13.771146] (-) TimerEvent: {}
+[13.872521] (-) TimerEvent: {}
+[13.975266] (-) TimerEvent: {}
+[14.076958] (-) TimerEvent: {}
+[14.179837] (-) TimerEvent: {}
+[14.281002] (-) TimerEvent: {}
+[14.385030] (-) TimerEvent: {}
+[14.485532] (-) TimerEvent: {}
+[14.587330] (-) TimerEvent: {}
+[14.689634] (-) TimerEvent: {}
+[14.792207] (-) TimerEvent: {}
+[14.893780] (-) TimerEvent: {}
+[14.997892] (-) TimerEvent: {}
+[15.099288] (-) TimerEvent: {}
+[15.202314] (-) TimerEvent: {}
+[15.303996] (-) TimerEvent: {}
+[15.406175] (-) TimerEvent: {}
+[15.508620] (-) TimerEvent: {}
+[15.613128] (-) TimerEvent: {}
+[15.714993] (-) TimerEvent: {}
+[15.816578] (-) TimerEvent: {}
+[15.921475] (-) TimerEvent: {}
+[16.023405] (-) TimerEvent: {}
+[16.125050] (-) TimerEvent: {}
+[16.227217] (-) TimerEvent: {}
+[16.331019] (-) TimerEvent: {}
+[16.431527] (-) TimerEvent: {}
+[16.533563] (-) TimerEvent: {}
+[16.636231] (-) TimerEvent: {}
+[16.740074] (-) TimerEvent: {}
+[16.846061] (-) TimerEvent: {}
+[16.946962] (-) TimerEvent: {}
+[17.047836] (-) TimerEvent: {}
+[17.148828] (-) TimerEvent: {}
+[17.254360] (-) TimerEvent: {}
+[17.355333] (-) TimerEvent: {}
+[17.455867] (-) TimerEvent: {}
+[17.558207] (-) TimerEvent: {}
+[17.659071] (-) TimerEvent: {}
+[17.760154] (-) TimerEvent: {}
+[17.861385] (-) TimerEvent: {}
+[17.963506] (-) TimerEvent: {}
+[18.065967] (-) TimerEvent: {}
+[18.167659] (-) TimerEvent: {}
+[18.268232] (-) TimerEvent: {}
+[18.370349] (-) TimerEvent: {}
+[18.472652] (-) TimerEvent: {}
+[18.575648] (-) TimerEvent: {}
+[18.676973] (-) TimerEvent: {}
+[18.778170] (-) TimerEvent: {}
+[18.880513] (-) TimerEvent: {}
+[18.981387] (-) TimerEvent: {}
+[19.084434] (-) TimerEvent: {}
+[19.189787] (-) TimerEvent: {}
+[19.290350] (-) TimerEvent: {}
+[19.390949] (-) TimerEvent: {}
+[19.491730] (-) TimerEvent: {}
+[19.592808] (-) TimerEvent: {}
+[19.699398] (-) TimerEvent: {}
+[19.800223] (-) TimerEvent: {}
+[19.901169] (-) TimerEvent: {}
+[20.003150] (-) TimerEvent: {}
+[20.104700] (-) TimerEvent: {}
+[20.205608] (-) TimerEvent: {}
+[20.309881] (-) TimerEvent: {}
+[20.410598] (-) TimerEvent: {}
+[20.512972] (-) TimerEvent: {}
+[20.615966] (-) TimerEvent: {}
+[20.718951] (-) TimerEvent: {}
+[20.823876] (-) TimerEvent: {}
+[20.928326] (-) TimerEvent: {}
+[21.032549] (-) TimerEvent: {}
+[21.135116] (-) TimerEvent: {}
+[21.239049] (-) TimerEvent: {}
+[21.340219] (-) TimerEvent: {}
+[21.442066] (-) TimerEvent: {}
+[21.543771] (-) TimerEvent: {}
+[21.645335] (-) TimerEvent: {}
+[21.747299] (-) TimerEvent: {}
+[21.850285] (-) TimerEvent: {}
+[21.952167] (-) TimerEvent: {}
+[22.056078] (-) TimerEvent: {}
+[22.156569] (-) TimerEvent: {}
+[22.258102] (-) TimerEvent: {}
+[22.360132] (-) TimerEvent: {}
+[22.463544] (-) TimerEvent: {}
+[22.564824] (-) TimerEvent: {}
+[22.667364] (-) TimerEvent: {}
+[22.770483] (-) TimerEvent: {}
+[22.871017] (-) TimerEvent: {}
+[22.987036] (-) TimerEvent: {}
+[23.087590] (-) TimerEvent: {}
+[23.189873] (-) TimerEvent: {}
+[23.293763] (-) TimerEvent: {}
+[23.394949] (-) TimerEvent: {}
+[23.498749] (-) TimerEvent: {}
+[23.602786] (-) TimerEvent: {}
+[23.703572] (-) TimerEvent: {}
+[23.805507] (-) TimerEvent: {}
+[23.907146] (-) TimerEvent: {}
+[24.007653] (-) TimerEvent: {}
+[24.110759] (-) TimerEvent: {}
+[24.214283] (-) TimerEvent: {}
+[24.316782] (-) TimerEvent: {}
+[24.418432] (-) TimerEvent: {}
+[24.519681] (-) TimerEvent: {}
+[24.622163] (-) TimerEvent: {}
+[24.724454] (-) TimerEvent: {}
+[24.828847] (-) TimerEvent: {}
+[24.932045] (-) TimerEvent: {}
+[25.032652] (-) TimerEvent: {}
+[25.133298] (-) TimerEvent: {}
+[25.239646] (-) TimerEvent: {}
+[25.340453] (-) TimerEvent: {}
+[25.441024] (-) TimerEvent: {}
+[25.543685] (-) TimerEvent: {}
+[25.645294] (-) TimerEvent: {}
+[25.748862] (-) TimerEvent: {}
+[25.849821] (-) TimerEvent: {}
+[25.951386] (-) TimerEvent: {}
+[26.053255] (-) TimerEvent: {}
+[26.156000] (-) TimerEvent: {}
+[26.256692] (-) TimerEvent: {}
+[26.359124] (-) TimerEvent: {}
+[26.462644] (-) TimerEvent: {}
+[26.563430] (-) TimerEvent: {}
+[26.666858] (-) TimerEvent: {}
+[26.769221] (-) TimerEvent: {}
+[26.872233] (-) TimerEvent: {}
+[26.975243] (-) TimerEvent: {}
+[27.077038] (-) TimerEvent: {}
+[27.178322] (-) TimerEvent: {}
+[27.281200] (-) TimerEvent: {}
+[27.383090] (-) TimerEvent: {}
+[27.485237] (-) TimerEvent: {}
+[27.587155] (-) TimerEvent: {}
+[27.690064] (-) TimerEvent: {}
+[27.790602] (-) TimerEvent: {}
+[27.893023] (-) TimerEvent: {}
+[27.993577] (-) TimerEvent: {}
+[28.094164] (-) TimerEvent: {}
+[28.196283] (-) TimerEvent: {}
+[28.297027] (-) TimerEvent: {}
+[28.399482] (-) TimerEvent: {}
+[28.500539] (-) TimerEvent: {}
+[28.603027] (-) TimerEvent: {}
+[28.703518] (-) TimerEvent: {}
+[28.806040] (-) TimerEvent: {}
+[28.906564] (-) TimerEvent: {}
+[29.007344] (-) TimerEvent: {}
+[29.108663] (-) TimerEvent: {}
+[29.209894] (-) TimerEvent: {}
+[29.311712] (-) TimerEvent: {}
+[29.412693] (-) TimerEvent: {}
+[29.513841] (-) TimerEvent: {}
+[29.616746] (-) TimerEvent: {}
+[29.717413] (-) TimerEvent: {}
+[29.820042] (-) TimerEvent: {}
+[29.920591] (-) TimerEvent: {}
+[30.021168] (-) TimerEvent: {}
+[30.121649] (-) TimerEvent: {}
+[30.225991] (-) TimerEvent: {}
+[30.326522] (-) TimerEvent: {}
+[30.427036] (-) TimerEvent: {}
+[30.527648] (-) TimerEvent: {}
+[30.629993] (-) TimerEvent: {}
+[30.730489] (-) TimerEvent: {}
+[30.835268] (-) TimerEvent: {}
+[30.936450] (-) TimerEvent: {}
+[31.037426] (-) TimerEvent: {}
+[31.140075] (-) TimerEvent: {}
+[31.242216] (-) TimerEvent: {}
+[31.345052] (-) TimerEvent: {}
+[31.445513] (-) TimerEvent: {}
+[31.546092] (-) TimerEvent: {}
+[31.646850] (-) TimerEvent: {}
+[31.748897] (-) TimerEvent: {}
+[31.850614] (-) TimerEvent: {}
+[31.953397] (-) TimerEvent: {}
+[32.054153] (-) TimerEvent: {}
+[32.154720] (-) TimerEvent: {}
+[32.257049] (-) TimerEvent: {}
+[32.359489] (-) TimerEvent: {}
+[32.460069] (-) TimerEvent: {}
+[32.560893] (-) TimerEvent: {}
+[32.666416] (-) TimerEvent: {}
+[32.767072] (-) TimerEvent: {}
+[32.868066] (-) TimerEvent: {}
+[32.972163] (-) TimerEvent: {}
+[33.072997] (-) TimerEvent: {}
+[33.175283] (-) TimerEvent: {}
+[33.275832] (-) TimerEvent: {}
+[33.376516] (-) TimerEvent: {}
+[33.478024] (-) TimerEvent: {}
+[33.579085] (-) TimerEvent: {}
+[33.685034] (-) TimerEvent: {}
+[33.785848] (-) TimerEvent: {}
+[33.889098] (-) TimerEvent: {}
+[33.991835] (-) TimerEvent: {}
+[34.093045] (-) TimerEvent: {}
+[34.197047] (-) TimerEvent: {}
+[34.299216] (-) TimerEvent: {}
+[34.402071] (-) TimerEvent: {}
+[34.503029] (-) TimerEvent: {}
+[34.603962] (-) TimerEvent: {}
+[34.704894] (-) TimerEvent: {}
+[34.806091] (-) TimerEvent: {}
+[34.907314] (-) TimerEvent: {}
+[35.008516] (-) TimerEvent: {}
+[35.109055] (-) TimerEvent: {}
+[35.209913] (-) TimerEvent: {}
+[35.311017] (-) TimerEvent: {}
+[35.413312] (-) TimerEvent: {}
+[35.515528] (-) TimerEvent: {}
+[35.617299] (-) TimerEvent: {}
+[35.721043] (-) TimerEvent: {}
+[35.822152] (-) TimerEvent: {}
+[35.923627] (-) TimerEvent: {}
+[36.026218] (-) TimerEvent: {}
+[36.128233] (-) TimerEvent: {}
+[36.230264] (-) TimerEvent: {}
+[36.332794] (-) TimerEvent: {}
+[36.435112] (-) TimerEvent: {}
+[36.537754] (-) TimerEvent: {}
+[36.640596] (-) TimerEvent: {}
+[36.741751] (-) TimerEvent: {}
+[36.843464] (-) TimerEvent: {}
+[36.944734] (-) TimerEvent: {}
+[37.046571] (-) TimerEvent: {}
+[37.148755] (-) TimerEvent: {}
+[37.249864] (-) TimerEvent: {}
+[37.350811] (-) TimerEvent: {}
+[37.453124] (-) TimerEvent: {}
+[37.553771] (-) TimerEvent: {}
+[37.657070] (-) TimerEvent: {}
+[37.759136] (-) TimerEvent: {}
+[37.860425] (-) TimerEvent: {}
+[37.961757] (-) TimerEvent: {}
+[38.062730] (-) TimerEvent: {}
+[38.164171] (-) TimerEvent: {}
+[38.266253] (-) TimerEvent: {}
+[38.368671] (-) TimerEvent: {}
+[38.470205] (-) TimerEvent: {}
+[38.571433] (-) TimerEvent: {}
+[38.674173] (-) TimerEvent: {}
+[38.775365] (-) TimerEvent: {}
+[38.876475] (-) TimerEvent: {}
+[38.977190] (-) TimerEvent: {}
+[39.088339] (-) TimerEvent: {}
+[39.192122] (-) TimerEvent: {}
+[39.293337] (-) TimerEvent: {}
+[39.395416] (-) TimerEvent: {}
+[39.499825] (-) TimerEvent: {}
+[39.611279] (-) TimerEvent: {}
+[39.714088] (-) TimerEvent: {}
+[39.816580] (-) TimerEvent: {}
+[39.921164] (-) TimerEvent: {}
+[40.024051] (-) TimerEvent: {}
+[40.127022] (-) TimerEvent: {}
+[40.233141] (-) TimerEvent: {}
+[40.333742] (-) TimerEvent: {}
+[40.434625] (-) TimerEvent: {}
+[40.539166] (-) TimerEvent: {}
+[40.641705] (-) TimerEvent: {}
+[40.744092] (-) TimerEvent: {}
+[40.845221] (-) TimerEvent: {}
+[40.947317] (-) TimerEvent: {}
+[41.001285] (demo_tf) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable tf_listener\x1b[0m\n'}
+[41.047664] (-) TimerEvent: {}
+[41.149386] (-) TimerEvent: {}
+[41.250813] (-) TimerEvent: {}
+[41.357118] (-) TimerEvent: {}
+[41.457618] (-) TimerEvent: {}
+[41.561072] (-) TimerEvent: {}
+[41.663607] (-) TimerEvent: {}
+[41.768111] (-) TimerEvent: {}
+[41.871601] (-) TimerEvent: {}
+[41.973059] (-) TimerEvent: {}
+[42.076933] (-) TimerEvent: {}
+[42.177510] (-) TimerEvent: {}
+[42.278577] (-) TimerEvent: {}
+[42.382289] (-) TimerEvent: {}
+[42.484989] (-) TimerEvent: {}
+[42.588584] (-) TimerEvent: {}
+[42.695154] (-) TimerEvent: {}
+[42.795620] (-) TimerEvent: {}
+[42.897657] (-) TimerEvent: {}
+[43.004034] (-) TimerEvent: {}
+[43.104546] (-) TimerEvent: {}
+[43.205390] (-) TimerEvent: {}
+[43.307129] (-) TimerEvent: {}
+[43.327260] (demo_tf) StdoutLine: {'line': b'[100%] Built target tf_listener\n'}
+[43.366210] (demo_tf) CommandEnded: {'returncode': 0}
+[43.367423] (demo_tf) JobProgress: {'identifier': 'demo_tf', 'progress': 'install'}
+[43.410016] (-) TimerEvent: {}
+[43.416822] (demo_tf) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf'], 'cwd': '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'wublabdubdub'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wublabdubdub'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/wublabdubdub/Learn/DFG'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1275'), ('BUNDLED_DEBUGPY_PATH', '/home/wublabdubdub/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'wublabdubdub'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wublabdubdub'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/wublabdubdub/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/wublabdubdub-virtual-machine:@/tmp/.ICE-unix/1228,unix/wublabdubdub-virtual-machine:/tmp/.ICE-unix/1228'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2dcf95e0_4c58_47f3_abc9_df79ee6ebf35'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/wublabdubdub/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-10fb1a4408edaf18.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/wublabdubdub/.config/Code/User/workspaceStorage/da1ffa76adde7033d99774a56fca7fd4/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J1DHF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7a350d8b12.sock'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/parameter:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/parameter:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf:/opt/ros/humble')]), 'shell': False}
+[43.464832] (demo_tf) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[43.466133] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/lib/demo_tf/static_tf_broadcaster\n'}
+[43.466411] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/lib/demo_tf/dynamic_tf_broadcaster\n'}
+[43.468036] (demo_tf) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/lib/demo_tf/tf_listener\n'}
+[43.485083] (demo_tf) StdoutLine: {'line': b'-- Set runtime path of "/home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/lib/demo_tf/tf_listener" to ""\n'}
+[43.485378] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/ament_index/resource_index/package_run_dependencies/demo_tf\n'}
+[43.487403] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/ament_index/resource_index/parent_prefix_path/demo_tf\n'}
+[43.489069] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/environment/ament_prefix_path.sh\n'}
+[43.489171] (demo_tf) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/environment/ament_prefix_path.dsv\n'}
+[43.489271] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/environment/path.sh\n'}
+[43.489348] (demo_tf) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/environment/path.dsv\n'}
+[43.489421] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/local_setup.bash\n'}
+[43.489493] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/local_setup.sh\n'}
+[43.489968] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/local_setup.zsh\n'}
+[43.490707] (demo_tf) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/local_setup.dsv\n'}
+[43.490805] (demo_tf) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/package.dsv\n'}
+[43.490887] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/ament_index/resource_index/packages/demo_tf\n'}
+[43.490995] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/cmake/demo_tfConfig.cmake\n'}
+[43.491073] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/cmake/demo_tfConfig-version.cmake\n'}
+[43.493090] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/package.xml\n'}
+[43.498990] (demo_tf) CommandEnded: {'returncode': 0}
+[43.512234] (-) TimerEvent: {}
+[43.583142] (demo_tf) JobEnded: {'identifier': 'demo_tf', 'rc': 0}
+[43.586084] (-) EventReactorShutdown: {}

@@ -1,0 +1,54 @@
+[0.023s] Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic -- -j2 -l2
+[0.064s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.230s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.262s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.265s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.275s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.292s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.304s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.344s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.347s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.460s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.518s] -- Found my_interface: 0.0.0 (/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake)
+[0.528s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.606s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.607s] -- Configured cppcheck include dirs: 
+[0.607s] -- Configured cppcheck exclude dirs and/or files: 
+[0.608s] -- Added test 'lint_cmake' to check CMake code style
+[0.608s] -- Added test 'uncrustify' to check C / C++ code style
+[0.608s] -- Configured uncrustify additional arguments: 
+[0.610s] -- Added test 'xmllint' to check XML markup files
+[0.614s] -- Configuring done
+[0.631s] -- Generating done
+[0.635s] -- Build files have been written to: /home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic
+[0.688s] [35m[1mConsolidate compiler generated dependencies of target TopicSubscriber[0m
+[0.688s] [35m[1mConsolidate compiler generated dependencies of target TopicPublisher[0m
+[0.745s] [ 25%] [32mBuilding CXX object CMakeFiles/TopicPublisher.dir/src/Topic_Publisher.cpp.o[0m
+[0.752s] [ 50%] [32mBuilding CXX object CMakeFiles/TopicSubscriber.dir/src/Topic_Subscriber.cpp.o[0m
+[29.130s] [ 75%] [32m[1mLinking CXX executable TopicPublisher[0m
+[29.794s] [ 75%] Built target TopicPublisher
+[37.228s] [100%] [32m[1mLinking CXX executable TopicSubscriber[0m
+[37.890s] [100%] Built target TopicSubscriber
+[37.930s] Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic -- -j2 -l2
+[37.973s] Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic
+[38.011s] -- Install configuration: ""
+[38.011s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/ament_index/resource_index/package_run_dependencies/topic
+[38.012s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/ament_index/resource_index/parent_prefix_path/topic
+[38.012s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/environment/ament_prefix_path.sh
+[38.012s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/environment/ament_prefix_path.dsv
+[38.012s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/environment/path.sh
+[38.012s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/environment/path.dsv
+[38.012s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/local_setup.bash
+[38.012s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/local_setup.sh
+[38.012s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/local_setup.zsh
+[38.015s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/local_setup.dsv
+[38.015s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/package.dsv
+[38.015s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/ament_index/resource_index/packages/topic
+[38.015s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/cmake/topicConfig.cmake
+[38.016s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/cmake/topicConfig-version.cmake
+[38.016s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/package.xml
+[38.016s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/lib/topic/TopicPublisher
+[38.023s] -- Set runtime path of "/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/lib/topic/TopicPublisher" to ""
+[38.023s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/lib/topic/TopicSubscriber
+[38.035s] -- Set runtime path of "/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/lib/topic/TopicSubscriber" to ""
+[38.053s] Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic

@@ -1,0 +1,55 @@
+[0.029s] Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/wublabdubdub/Learn/DFG/Ros2_WS/src/service -DCMAKE_INSTALL_PREFIX=/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service
+[0.374s] -- The C compiler identification is GNU 11.4.0
+[0.889s] -- The CXX compiler identification is GNU 11.4.0
+[0.966s] -- Detecting C compiler ABI info
+[1.531s] -- Detecting C compiler ABI info - done
+[1.561s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.562s] -- Detecting C compile features
+[1.567s] -- Detecting C compile features - done
+[1.582s] -- Detecting CXX compiler ABI info
+[2.070s] -- Detecting CXX compiler ABI info - done
+[2.098s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.100s] -- Detecting CXX compile features
+[2.101s] -- Detecting CXX compile features - done
+[2.110s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.689s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.124s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[3.309s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.345s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.394s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.439s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.494s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.658s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.671s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.099s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.191s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.363s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.386s] -- Looking for pthread.h
+[4.855s] -- Looking for pthread.h - found
+[4.863s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.575s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.582s] -- Found Threads: TRUE  
+[5.825s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.248s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.254s] -- Configured cppcheck include dirs: 
+[6.254s] -- Configured cppcheck exclude dirs and/or files: 
+[6.257s] -- Added test 'lint_cmake' to check CMake code style
+[6.267s] -- Added test 'uncrustify' to check C / C++ code style
+[6.272s] -- Configured uncrustify additional arguments: 
+[6.272s] -- Added test 'xmllint' to check XML markup files
+[6.289s] -- Configuring done
+[6.318s] [31mCMake Error at CMakeLists.txt:25 (add_executable):
+[6.318s]   Cannot find source file:
+[6.318s] 
+[6.318s]     src/Service.cpp
+[6.318s] 
+[6.318s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[6.319s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[6.319s] 
+[6.319s] [0m
+[6.327s] [31mCMake Error at CMakeLists.txt:25 (add_executable):
+[6.327s]   No SOURCES given to target: ServiceServer
+[6.327s] 
+[6.327s] [0m
+[6.327s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[6.405s] Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/service' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/wublabdubdub/Learn/DFG/Ros2_WS/src/service -DCMAKE_INSTALL_PREFIX=/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service

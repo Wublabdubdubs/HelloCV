@@ -1,0 +1,2 @@
+Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wublabdubdub/Learn/DFG/Ros2_WS/build/service -- -j2 -l2
+Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/service' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wublabdubdub/Learn/DFG/Ros2_WS/build/service -- -j2 -l2

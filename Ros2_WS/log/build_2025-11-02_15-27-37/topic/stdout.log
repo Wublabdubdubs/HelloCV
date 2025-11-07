@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target TopicSubscriber[0m
+[ 50%] Built target TopicSubscriber
+[35m[1mConsolidate compiler generated dependencies of target TopicPublisher[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/TopicPublisher.dir/src/Topic_Publisher.cpp.o[0m

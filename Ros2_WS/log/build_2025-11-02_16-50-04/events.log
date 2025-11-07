@@ -1,0 +1,232 @@
+[0.000000] (-) TimerEvent: {}
+[0.001918] (-) JobUnselected: {'identifier': 'my_interface'}
+[0.001986] (-) JobUnselected: {'identifier': 'service'}
+[0.002015] (topic) JobQueued: {'identifier': 'topic', 'dependencies': OrderedDict([('my_interface', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface')])}
+[0.007845] (topic) JobStarted: {'identifier': 'topic'}
+[0.052311] (topic) JobProgress: {'identifier': 'topic', 'progress': 'cmake'}
+[0.053916] (topic) JobProgress: {'identifier': 'topic', 'progress': 'build'}
+[0.060004] (topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic', '--', '-j2', '-l2'], 'cwd': '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'wublabdubdub'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wublabdubdub'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/wublabdubdub/Learn/DFG/Ros2_WS/src'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1262'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install:/home/wublabdubdub/Learn/DFG/Ros_WorkSpace/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'wublabdubdub'), ('http_proxy', 'http://192.168.206.112:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wublabdubdub'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/wublabdubdub-virtual-machine:@/tmp/.ICE-unix/1222,unix/wublabdubdub-virtual-machine:/tmp/.ICE-unix/1222'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b81a4d55_87c0_49fe_b100_6a03b3635305'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9B6LF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7a350d8b12.sock'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.206.112:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/opt/ros/humble')]), 'shell': False}
+[0.100847] (-) TimerEvent: {}
+[0.202856] (-) TimerEvent: {}
+[0.268005] (topic) StdoutLine: {'line': b'[ 50%] Built target TopicPublisher\n'}
+[0.304000] (-) TimerEvent: {}
+[0.398454] (topic) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/TopicSubscriber.dir/src/Topic_Subscriber.cpp.o\x1b[0m\n'}
+[0.406487] (-) TimerEvent: {}
+[0.506958] (-) TimerEvent: {}
+[0.609293] (-) TimerEvent: {}
+[0.713943] (-) TimerEvent: {}
+[0.817228] (-) TimerEvent: {}
+[0.918877] (-) TimerEvent: {}
+[1.019947] (-) TimerEvent: {}
+[1.120321] (-) TimerEvent: {}
+[1.221646] (-) TimerEvent: {}
+[1.323751] (-) TimerEvent: {}
+[1.424418] (-) TimerEvent: {}
+[1.528203] (-) TimerEvent: {}
+[1.634982] (-) TimerEvent: {}
+[1.735575] (-) TimerEvent: {}
+[1.838962] (-) TimerEvent: {}
+[1.942945] (-) TimerEvent: {}
+[2.043820] (-) TimerEvent: {}
+[2.144462] (-) TimerEvent: {}
+[2.245543] (-) TimerEvent: {}
+[2.347383] (-) TimerEvent: {}
+[2.451350] (-) TimerEvent: {}
+[2.553062] (-) TimerEvent: {}
+[2.656403] (-) TimerEvent: {}
+[2.757453] (-) TimerEvent: {}
+[2.859988] (-) TimerEvent: {}
+[2.960679] (-) TimerEvent: {}
+[3.062893] (-) TimerEvent: {}
+[3.163488] (-) TimerEvent: {}
+[3.265914] (-) TimerEvent: {}
+[3.366796] (-) TimerEvent: {}
+[3.469076] (-) TimerEvent: {}
+[3.569639] (-) TimerEvent: {}
+[3.673986] (-) TimerEvent: {}
+[3.776400] (-) TimerEvent: {}
+[3.877836] (-) TimerEvent: {}
+[3.979172] (-) TimerEvent: {}
+[4.081785] (-) TimerEvent: {}
+[4.182177] (-) TimerEvent: {}
+[4.282824] (-) TimerEvent: {}
+[4.383602] (-) TimerEvent: {}
+[4.486283] (-) TimerEvent: {}
+[4.588787] (-) TimerEvent: {}
+[4.689346] (-) TimerEvent: {}
+[4.791194] (-) TimerEvent: {}
+[4.894232] (-) TimerEvent: {}
+[4.995600] (-) TimerEvent: {}
+[5.097973] (-) TimerEvent: {}
+[5.200250] (-) TimerEvent: {}
+[5.301753] (-) TimerEvent: {}
+[5.402450] (-) TimerEvent: {}
+[5.503791] (-) TimerEvent: {}
+[5.605755] (-) TimerEvent: {}
+[5.708273] (-) TimerEvent: {}
+[5.810418] (-) TimerEvent: {}
+[5.911206] (-) TimerEvent: {}
+[6.013772] (-) TimerEvent: {}
+[6.104526] (topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[6.104928] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[6.105027] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[6.105106] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[6.105180] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[6.105268] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[6.105337] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[6.105406] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[6.105475] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[6.105546] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[6.105613] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.105696] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/topic/src/Topic_Subscriber.cpp:2\x1b[m\x1b[K:\n'}
+[6.105771] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/topic/src/Topic_Subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TopicSubscriber::command_callback(my_interface::msg::Example_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.105844] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/topic/src/Topic_Subscriber.cpp:15:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kmy_interface::msg::Example_<std::allocator<void> >::_data2_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.105921] (topic) StderrLine: {'line': b'   15 |         RCLCPP_INFO(this->get_logger(),\x1b[01;35m\x1b[K"%d %d"\x1b[m\x1b[K,msg->data1,\x1b[32m\x1b[Kmsg->data2\x1b[m\x1b[K);\n'}
+[6.105991] (topic) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K            \x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.106062] (topic) StderrLine: {'line': b'      |                                                                \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[6.106130] (topic) StderrLine: {'line': b'      |                                                                \x1b[32m\x1b[Kmy_interface::msg::Example_<std::allocator<void> >::_data2_type {aka long int}\x1b[m\x1b[K\n'}
+[6.106200] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/topic/src/Topic_Subscriber.cpp:15:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[6.109546] (topic) StderrLine: {'line': b'   15 |         RCLCPP_INFO(this->get_logger(),"%d \x1b[01;36m\x1b[K%d\x1b[m\x1b[K",msg->data1,msg->data2);\n'}
+[6.109637] (topic) StderrLine: {'line': b'      |                                            \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[6.109753] (topic) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[6.109825] (topic) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[6.109957] (topic) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[6.115735] (-) TimerEvent: {}
+[6.217129] (-) TimerEvent: {}
+[6.318412] (-) TimerEvent: {}
+[6.419399] (-) TimerEvent: {}
+[6.523515] (-) TimerEvent: {}
+[6.627601] (-) TimerEvent: {}
+[6.730718] (-) TimerEvent: {}
+[6.833954] (-) TimerEvent: {}
+[6.934758] (-) TimerEvent: {}
+[7.039417] (-) TimerEvent: {}
+[7.144167] (-) TimerEvent: {}
+[7.245153] (-) TimerEvent: {}
+[7.348474] (-) TimerEvent: {}
+[7.449991] (-) TimerEvent: {}
+[7.553777] (-) TimerEvent: {}
+[7.657019] (-) TimerEvent: {}
+[7.761531] (-) TimerEvent: {}
+[7.863441] (-) TimerEvent: {}
+[7.964511] (-) TimerEvent: {}
+[8.066392] (-) TimerEvent: {}
+[8.169740] (-) TimerEvent: {}
+[8.271078] (-) TimerEvent: {}
+[8.371545] (-) TimerEvent: {}
+[8.472081] (-) TimerEvent: {}
+[8.575984] (-) TimerEvent: {}
+[8.680083] (-) TimerEvent: {}
+[8.780623] (-) TimerEvent: {}
+[8.881493] (-) TimerEvent: {}
+[8.983034] (-) TimerEvent: {}
+[9.084322] (-) TimerEvent: {}
+[9.185262] (-) TimerEvent: {}
+[9.290076] (-) TimerEvent: {}
+[9.390554] (-) TimerEvent: {}
+[9.491524] (-) TimerEvent: {}
+[9.593314] (-) TimerEvent: {}
+[9.696830] (-) TimerEvent: {}
+[9.798365] (-) TimerEvent: {}
+[9.900980] (-) TimerEvent: {}
+[10.004550] (-) TimerEvent: {}
+[10.108308] (-) TimerEvent: {}
+[10.209752] (-) TimerEvent: {}
+[10.311043] (-) TimerEvent: {}
+[10.412930] (-) TimerEvent: {}
+[10.515544] (-) TimerEvent: {}
+[10.616844] (-) TimerEvent: {}
+[10.717991] (-) TimerEvent: {}
+[10.818517] (-) TimerEvent: {}
+[10.919763] (-) TimerEvent: {}
+[11.021414] (-) TimerEvent: {}
+[11.122166] (-) TimerEvent: {}
+[11.224524] (-) TimerEvent: {}
+[11.326716] (-) TimerEvent: {}
+[11.427869] (-) TimerEvent: {}
+[11.532393] (-) TimerEvent: {}
+[11.632903] (-) TimerEvent: {}
+[11.733362] (-) TimerEvent: {}
+[11.835504] (-) TimerEvent: {}
+[11.936477] (-) TimerEvent: {}
+[12.039237] (-) TimerEvent: {}
+[12.140418] (-) TimerEvent: {}
+[12.243820] (-) TimerEvent: {}
+[12.345597] (-) TimerEvent: {}
+[12.446881] (-) TimerEvent: {}
+[12.549821] (-) TimerEvent: {}
+[12.650291] (-) TimerEvent: {}
+[12.753789] (-) TimerEvent: {}
+[12.854771] (-) TimerEvent: {}
+[12.955395] (-) TimerEvent: {}
+[13.056776] (-) TimerEvent: {}
+[13.157425] (-) TimerEvent: {}
+[13.258500] (-) TimerEvent: {}
+[13.359859] (-) TimerEvent: {}
+[13.460606] (-) TimerEvent: {}
+[13.561781] (-) TimerEvent: {}
+[13.662707] (-) TimerEvent: {}
+[13.765906] (-) TimerEvent: {}
+[13.866340] (-) TimerEvent: {}
+[13.967811] (-) TimerEvent: {}
+[14.069203] (-) TimerEvent: {}
+[14.169856] (-) TimerEvent: {}
+[14.272125] (-) TimerEvent: {}
+[14.373360] (-) TimerEvent: {}
+[14.475777] (-) TimerEvent: {}
+[14.576171] (-) TimerEvent: {}
+[14.676850] (-) TimerEvent: {}
+[14.777852] (-) TimerEvent: {}
+[14.878608] (-) TimerEvent: {}
+[14.980189] (-) TimerEvent: {}
+[15.080540] (-) TimerEvent: {}
+[15.181441] (-) TimerEvent: {}
+[15.281810] (-) TimerEvent: {}
+[15.382463] (-) TimerEvent: {}
+[15.483097] (-) TimerEvent: {}
+[15.584887] (-) TimerEvent: {}
+[15.685484] (-) TimerEvent: {}
+[15.787459] (-) TimerEvent: {}
+[15.888374] (-) TimerEvent: {}
+[15.989997] (-) TimerEvent: {}
+[16.092212] (-) TimerEvent: {}
+[16.192994] (-) TimerEvent: {}
+[16.294602] (-) TimerEvent: {}
+[16.395281] (-) TimerEvent: {}
+[16.495877] (-) TimerEvent: {}
+[16.596713] (-) TimerEvent: {}
+[16.696609] (topic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable TopicSubscriber\x1b[0m\n'}
+[16.696897] (-) TimerEvent: {}
+[16.797785] (-) TimerEvent: {}
+[16.898243] (-) TimerEvent: {}
+[16.999069] (-) TimerEvent: {}
+[17.099889] (-) TimerEvent: {}
+[17.201917] (-) TimerEvent: {}
+[17.299796] (topic) StdoutLine: {'line': b'[100%] Built target TopicSubscriber\n'}
+[17.302187] (-) TimerEvent: {}
+[17.333414] (topic) CommandEnded: {'returncode': 0}
+[17.335153] (topic) JobProgress: {'identifier': 'topic', 'progress': 'install'}
+[17.365515] (topic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic'], 'cwd': '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'wublabdubdub'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wublabdubdub'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/wublabdubdub/Learn/DFG/Ros2_WS/src'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1262'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install:/home/wublabdubdub/Learn/DFG/Ros_WorkSpace/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'wublabdubdub'), ('http_proxy', 'http://192.168.206.112:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wublabdubdub'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/wublabdubdub-virtual-machine:@/tmp/.ICE-unix/1222,unix/wublabdubdub-virtual-machine:/tmp/.ICE-unix/1222'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b81a4d55_87c0_49fe_b100_6a03b3635305'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9B6LF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7a350d8b12.sock'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.206.112:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/opt/ros/humble')]), 'shell': False}
+[17.389463] (topic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.390019] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/ament_index/resource_index/package_run_dependencies/topic\n'}
+[17.390579] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/ament_index/resource_index/parent_prefix_path/topic\n'}
+[17.391131] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/environment/ament_prefix_path.sh\n'}
+[17.392081] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/environment/ament_prefix_path.dsv\n'}
+[17.392204] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/environment/path.sh\n'}
+[17.392266] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/environment/path.dsv\n'}
+[17.392317] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/local_setup.bash\n'}
+[17.392363] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/local_setup.sh\n'}
+[17.392488] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/local_setup.zsh\n'}
+[17.394725] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/local_setup.dsv\n'}
+[17.394858] (topic) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/package.dsv\n'}
+[17.394905] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/ament_index/resource_index/packages/topic\n'}
+[17.395175] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/cmake/topicConfig.cmake\n'}
+[17.395227] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/cmake/topicConfig-version.cmake\n'}
+[17.395707] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/package.xml\n'}
+[17.397169] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/lib/topic/TopicPublisher\n'}
+[17.398696] (topic) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/lib/topic/TopicSubscriber\n'}
+[17.402229] (topic) StdoutLine: {'line': b'-- Set runtime path of "/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/lib/topic/TopicSubscriber" to ""\n'}
+[17.402409] (-) TimerEvent: {}
+[17.405733] (topic) CommandEnded: {'returncode': 0}
+[17.447680] (topic) JobEnded: {'identifier': 'topic', 'rc': 0}
+[17.450124] (-) EventReactorShutdown: {}

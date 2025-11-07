@@ -1,0 +1,18 @@
+[31mCMake Error at CMakeLists.txt:12 (find_package):
+  By not providing "Findmy_interface.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "my_interface", but CMake did not find one.
+
+  Could not find a package configuration file provided by "my_interface" with
+  any of the following names:
+
+    my_interfaceConfig.cmake
+    my_interface-config.cmake
+
+  Add the installation prefix of "my_interface" to CMAKE_PREFIX_PATH or set
+  "my_interface_DIR" to a directory containing one of the above files.  If
+  "my_interface" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m
+gmake: *** [Makefile:308：cmake_check_build_system] 错误 1

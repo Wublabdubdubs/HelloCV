@@ -1,0 +1,54 @@
+[ 50%] Built target TopicSubscriber
+[ 75%] [32mBuilding CXX object CMakeFiles/TopicPublisher.dir/src/Topic_Publisher.cpp.o[0m
+[01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/topic/src/Topic_Publisher.cpp:24:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample[m[K’ is not a member of ‘[01m[Kmy_interface::msg[m[K’; did you mean ‘[01m[KExample[m[K’?
+   24 |     rclcpp::Publisher<my_interface::msg::[01;31m[Kexample[m[K>::SharedPtr command_publisher_;
+      |                                          [01;31m[K^~~~~~~[m[K
+      |                                          [32m[KExample[m[K
+[01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/topic/src/Topic_Publisher.cpp:24:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   24 |     rclcpp::Publisher<my_interface::msg::example[01;31m[K>[m[K::SharedPtr command_publisher_;
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/topic/src/Topic_Publisher.cpp:24:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   24 |     rclcpp::Publisher<my_interface::msg::example>::[01;31m[KSharedPtr[m[K command_publisher_;
+      |                                                    [01;31m[K^~~~~~~~~[m[K
+      |                                                             [32m[K;[m[K
+[01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/topic/src/Topic_Publisher.cpp:24:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_publisher_[m[K’ does not name a type
+   24 |     rclcpp::Publisher<my_interface::msg::example>::SharedPtr [01;31m[Kcommand_publisher_[m[K;
+      |                                                              [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/topic/src/Topic_Publisher.cpp:[m[K In constructor ‘[01m[KTopicPublisher::TopicPublisher(std::string)[m[K’:
+[01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/topic/src/Topic_Publisher.cpp:10:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+   10 |         [01;31m[Kcommand_publisher_[m[K = this->create_publisher<my_interface::msg::example>("command", 10);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kcount_publishers[m[K
+[01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/topic/src/Topic_Publisher.cpp:10:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample[m[K’ is not a member of ‘[01m[Kmy_interface::msg[m[K’; did you mean ‘[01m[KExample[m[K’?
+   10 |         command_publisher_ = this->create_publisher<my_interface::msg::[01;31m[Kexample[m[K>("command", 10);
+      |                                                                        [01;31m[K^~~~~~~[m[K
+      |                                                                        [32m[KExample[m[K
+[01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/topic/src/Topic_Publisher.cpp:10:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTopicPublisher::create_publisher<<expression error> >(const char [8], int)[m[K’
+   10 |         command_publisher_ = [01;31m[Kthis->create_publisher<my_interface::msg::example>("command", 10)[m[K;
+      |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/topic/src/Topic_Publisher.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/topic/src/Topic_Publisher.cpp:10:80:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   10 |         command_publisher_ = [01;31m[Kthis->create_publisher<my_interface::msg::example>("command", 10)[m[K;
+      |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/topic/src/Topic_Publisher.cpp:[m[K In member function ‘[01m[Kvoid TopicPublisher::timer_callback()[m[K’:
+[01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/topic/src/Topic_Publisher.cpp:17:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample[m[K’ is not a member of ‘[01m[Kmy_interface::msg[m[K’; did you mean ‘[01m[KExample[m[K’?
+   17 |         my_interface::msg::[01;31m[Kexample[m[K message;
+      |                            [01;31m[K^~~~~~~[m[K
+      |                            [32m[KExample[m[K
+[01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/topic/src/Topic_Publisher.cpp:18:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+   18 |         [01;31m[Kmessage[m[K.data1=1;
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/topic/src/Topic_Publisher.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+   21 |         [01;31m[Kcommand_publisher_[m[K->publish(message);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kcount_publishers[m[K
+gmake[2]: *** [CMakeFiles/TopicPublisher.dir/build.make:76：CMakeFiles/TopicPublisher.dir/src/Topic_Publisher.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/TopicPublisher.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-90b897bc0c241e89679b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "topic",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "TopicPublisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TopicPublisher-d3a8ed8c6f710f4a9e8d.json",
+					"name" : "TopicPublisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TopicSubscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TopicSubscriber-55ff1cbbba49b5c486b9.json",
+					"name" : "TopicSubscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_uninstall-69ad43a85ecc70d2908e.json",
+					"name" : "topic_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e5ef16cabe5e7c6e1fa9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic",
+		"source" : "/home/wublabdubdub/Learn/DFG/Ros2_WS/src/topic"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

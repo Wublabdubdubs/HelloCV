@@ -1,0 +1,174 @@
+[0.139s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'service']
+[0.140s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['service'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ae36db2b5e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ae36dc749a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ae36dc749a0>>)
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.284s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/wublabdubdub/Learn/DFG/Ros2_WS'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extension 'ros'
+[0.295s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_interface' with type 'ros.ament_cmake' and name 'my_interface'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/parameter) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/parameter) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/parameter) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/parameter) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/parameter) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/parameter) by extensions ['colcon_meta']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/parameter) by extension 'colcon_meta'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/parameter) by extensions ['ros']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/parameter) by extension 'ros'
+[0.296s] DEBUG:colcon.colcon_core.package_identification:Package 'src/parameter' with type 'ros.ament_cmake' and name 'parameter'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extension 'ros'
+[0.296s] DEBUG:colcon.colcon_core.package_identification:Package 'src/service' with type 'ros.ament_cmake' and name 'service'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic) by extension 'ros'
+[0.297s] DEBUG:colcon.colcon_core.package_identification:Package 'src/topic' with type 'ros.ament_cmake' and name 'topic'
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.310s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_interface' in 'src/my_interface'
+[0.310s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'parameter' in 'src/parameter'
+[0.310s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'topic' in 'src/topic'
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.311s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/wublabdubdub/Learn/DFG/Ros2_WS/install
+[0.312s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'cmake_target' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'cmake_clean_first' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'cmake_force_configure' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'ament_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.342s] DEBUG:colcon.colcon_core.verb:Building package 'service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service', 'merge_install': False, 'path': '/home/wublabdubdub/Learn/DFG/Ros2_WS/src/service', 'symlink_install': False, 'test_result_base': None}
+[0.342s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.343s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.343s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wublabdubdub/Learn/DFG/Ros2_WS/src/service' with build type 'ament_cmake'
+[0.343s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wublabdubdub/Learn/DFG/Ros2_WS/src/service'
+[0.345s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.345s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.345s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wublabdubdub/Learn/DFG/Ros2_WS/build/service -- -j2 -l2
+[17.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wublabdubdub/Learn/DFG/Ros2_WS/build/service -- -j2 -l2
+[17.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wublabdubdub/Learn/DFG/Ros2_WS/build/service
+[17.837s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(service)
+[17.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wublabdubdub/Learn/DFG/Ros2_WS/build/service
+[17.841s] Level 1:colcon.colcon_core.environment:checking '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service' for CMake module files
+[17.842s] Level 1:colcon.colcon_core.environment:checking '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service' for CMake config files
+[17.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('service', 'cmake_prefix_path')
+[17.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/hook/cmake_prefix_path.ps1'
+[17.846s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/hook/cmake_prefix_path.dsv'
+[17.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/hook/cmake_prefix_path.sh'
+[17.849s] Level 1:colcon.colcon_core.environment:checking '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/lib'
+[17.849s] Level 1:colcon.colcon_core.environment:checking '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/bin'
+[17.849s] Level 1:colcon.colcon_core.environment:checking '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/lib/pkgconfig/service.pc'
+[17.850s] Level 1:colcon.colcon_core.environment:checking '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/lib/python3.10/site-packages'
+[17.850s] Level 1:colcon.colcon_core.environment:checking '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/bin'
+[17.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/package.ps1'
+[17.853s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/package.dsv'
+[17.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/package.sh'
+[17.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/package.bash'
+[17.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/package.zsh'
+[17.858s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/colcon-core/packages/service)
+[17.860s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(service)
+[17.860s] Level 1:colcon.colcon_core.environment:checking '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service' for CMake module files
+[17.860s] Level 1:colcon.colcon_core.environment:checking '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service' for CMake config files
+[17.861s] Level 1:colcon.colcon_core.shell:create_environment_hook('service', 'cmake_prefix_path')
+[17.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/hook/cmake_prefix_path.ps1'
+[17.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/hook/cmake_prefix_path.dsv'
+[17.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/hook/cmake_prefix_path.sh'
+[17.863s] Level 1:colcon.colcon_core.environment:checking '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/lib'
+[17.864s] Level 1:colcon.colcon_core.environment:checking '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/bin'
+[17.864s] Level 1:colcon.colcon_core.environment:checking '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/lib/pkgconfig/service.pc'
+[17.864s] Level 1:colcon.colcon_core.environment:checking '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/lib/python3.10/site-packages'
+[17.865s] Level 1:colcon.colcon_core.environment:checking '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/bin'
+[17.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/package.ps1'
+[17.866s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/package.dsv'
+[17.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/package.sh'
+[17.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/package.bash'
+[17.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/package.zsh'
+[17.869s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/colcon-core/packages/service)
+[17.871s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.871s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.871s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.871s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.882s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.883s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.883s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.914s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.917s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/local_setup.ps1'
+[17.918s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/_local_setup_util_ps1.py'
+[17.921s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/setup.ps1'
+[17.927s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/local_setup.sh'
+[17.928s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/_local_setup_util_sh.py'
+[17.938s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/setup.sh'
+[17.943s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/local_setup.bash'
+[17.944s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/setup.bash'
+[17.945s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/local_setup.zsh'
+[17.946s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/setup.zsh'

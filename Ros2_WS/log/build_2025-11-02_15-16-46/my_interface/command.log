@@ -1,0 +1,6 @@
+Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/my_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wublabdubdub/Learn/DFG/Ros2_WS/src/my_interface -DCMAKE_INSTALL_PREFIX=/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface
+Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/my_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wublabdubdub/Learn/DFG/Ros2_WS/src/my_interface -DCMAKE_INSTALL_PREFIX=/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface
+Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/my_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wublabdubdub/Learn/DFG/Ros2_WS/build/my_interface -- -j2 -l2
+Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/my_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wublabdubdub/Learn/DFG/Ros2_WS/build/my_interface -- -j2 -l2
+Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/my_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wublabdubdub/Learn/DFG/Ros2_WS/build/my_interface
+Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/my_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wublabdubdub/Learn/DFG/Ros2_WS/build/my_interface

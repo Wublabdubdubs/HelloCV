@@ -1,0 +1,29 @@
+[0.027s] Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf -- -j2 -l2
+[0.223s] [35m[1mConsolidate compiler generated dependencies of target dynamic_tf_broadcaster[0m
+[0.335s] [ 25%] [32mBuilding CXX object CMakeFiles/dynamic_tf_broadcaster.dir/src/dynamic_tf.cpp.o[0m
+[0.364s] [ 75%] Built target static_tf_broadcaster
+[9.422s] [100%] [32m[1mLinking CXX executable dynamic_tf_broadcaster[0m
+[9.957s] [100%] Built target dynamic_tf_broadcaster
+[9.996s] Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf -- -j2 -l2
+[10.028s] Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf
+[10.044s] -- Install configuration: ""
+[10.044s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/lib/demo_tf/static_tf_broadcaster
+[10.049s] -- Set runtime path of "/home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/lib/demo_tf/static_tf_broadcaster" to ""
+[10.050s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/lib/demo_tf/dynamic_tf_broadcaster
+[10.053s] -- Set runtime path of "/home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/lib/demo_tf/dynamic_tf_broadcaster" to ""
+[10.054s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/ament_index/resource_index/package_run_dependencies/demo_tf
+[10.054s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/ament_index/resource_index/parent_prefix_path/demo_tf
+[10.055s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/environment/ament_prefix_path.sh
+[10.056s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/environment/ament_prefix_path.dsv
+[10.056s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/environment/path.sh
+[10.056s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/environment/path.dsv
+[10.057s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/local_setup.bash
+[10.057s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/local_setup.sh
+[10.057s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/local_setup.zsh
+[10.057s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/local_setup.dsv
+[10.057s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/package.dsv
+[10.058s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/ament_index/resource_index/packages/demo_tf
+[10.058s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/cmake/demo_tfConfig.cmake
+[10.058s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/cmake/demo_tfConfig-version.cmake
+[10.058s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/package.xml
+[10.059s] Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf

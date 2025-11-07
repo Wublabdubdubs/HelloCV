@@ -1,0 +1,7 @@
+[01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/topic/src/Topic_Publisher.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_inerface/msg/example.hpp: 没有那个文件或目录
+    2 | #include [01;31m[K"my_inerface/msg/example.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/TopicPublisher.dir/build.make:76：CMakeFiles/TopicPublisher.dir/src/Topic_Publisher.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/TopicPublisher.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

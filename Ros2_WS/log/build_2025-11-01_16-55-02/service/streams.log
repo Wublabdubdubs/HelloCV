@@ -1,0 +1,26 @@
+[0.036s] Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wublabdubdub/Learn/DFG/Ros2_WS/build/service -- -j2 -l2
+[0.147s] [35m[1mConsolidate compiler generated dependencies of target ServiceServer[0m
+[0.185s] [ 50%] [32mBuilding CXX object CMakeFiles/ServiceServer.dir/src/Service_Server.cpp.o[0m
+[9.013s] [100%] [32m[1mLinking CXX executable ServiceServer[0m
+[9.416s] [100%] Built target ServiceServer
+[9.472s] Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wublabdubdub/Learn/DFG/Ros2_WS/build/service -- -j2 -l2
+[9.498s] Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wublabdubdub/Learn/DFG/Ros2_WS/build/service
+[9.542s] -- Install configuration: ""
+[9.542s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/ament_index/resource_index/package_run_dependencies/service
+[9.543s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/ament_index/resource_index/parent_prefix_path/service
+[9.543s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/environment/ament_prefix_path.sh
+[9.543s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/environment/ament_prefix_path.dsv
+[9.543s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/environment/path.sh
+[9.551s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/environment/path.dsv
+[9.551s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/local_setup.bash
+[9.551s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/local_setup.sh
+[9.551s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/local_setup.zsh
+[9.551s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/local_setup.dsv
+[9.551s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/package.dsv
+[9.552s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/ament_index/resource_index/packages/service
+[9.554s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/cmake/serviceConfig.cmake
+[9.558s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/cmake/serviceConfig-version.cmake
+[9.558s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/package.xml
+[9.558s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/lib/service/ServiceServer
+[9.558s] -- Set runtime path of "/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/lib/service/ServiceServer" to ""
+[9.559s] Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wublabdubdub/Learn/DFG/Ros2_WS/build/service

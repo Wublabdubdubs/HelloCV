@@ -1,0 +1,54 @@
+[0.024s] Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/wublabdubdub/Learn/DFG/Ros2_WS/src/demo_tf -DCMAKE_INSTALL_PREFIX=/home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf
+[0.092s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.816s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.894s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.901s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.918s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.949s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.988s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.036s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.036s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.186s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.238s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.368s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.372s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.375s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.379s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.595s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.595s] -- Configured cppcheck include dirs: 
+[1.596s] -- Configured cppcheck exclude dirs and/or files: 
+[1.598s] -- Added test 'lint_cmake' to check CMake code style
+[1.599s] -- Added test 'uncrustify' to check C / C++ code style
+[1.599s] -- Configured uncrustify additional arguments: 
+[1.600s] -- Added test 'xmllint' to check XML markup files
+[1.603s] -- Configuring done
+[1.648s] -- Generating done
+[1.658s] -- Build files have been written to: /home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf
+[1.671s] Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/wublabdubdub/Learn/DFG/Ros2_WS/src/demo_tf -DCMAKE_INSTALL_PREFIX=/home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf
+[1.676s] Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf -- -j2 -l2
+[1.767s] [ 25%] [32mBuilding CXX object CMakeFiles/static_tf_broadcaster.dir/src/static_tf.cpp.o[0m
+[1.770s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamic_tf_broadcaster.dir/src/dynamic_tf.cpp.o[0m
+[12.887s] [01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/demo_tf/src/dynamic_tf.cpp:11:30:[m[K [01;31m[Kerror: [m[K‘[01m[KTransformBroadcaster[m[K’ is not a member of ‘[01m[Ktf2_ros[m[K’; did you mean ‘[01m[KStaticTransformBroadcaster[m[K’?
+[12.887s]    11 |     std::shared_ptr<tf2_ros::[01;31m[KTransformBroadcaster[m[K> broadcaster_;
+[12.887s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[12.887s]       |                              [32m[KStaticTransformBroadcaster[m[K
+[12.888s] [01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/demo_tf/src/dynamic_tf.cpp:11:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[12.888s]    11 |     std::shared_ptr<tf2_ros::TransformBroadcaster[01;31m[K>[m[K broadcaster_;
+[12.888s]       |                                                  [01;31m[K^[m[K
+[12.903s] [01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/demo_tf/src/dynamic_tf.cpp:[m[K In constructor ‘[01m[KDynamicTFBroadCaster::DynamicTFBroadCaster(std::string)[m[K’:
+[12.903s] [01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/demo_tf/src/dynamic_tf.cpp:17:75:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::shared_ptr<tf2_ros::StaticTransformBroadcaster>[m[K’ to ‘[01m[Kint[m[K’ in assignment
+[12.905s]    17 |         broadcaster_=[01;31m[Kstd::make_shared<tf2_ros::StaticTransformBroadcaster>(this)[m[K;
+[12.905s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[12.905s]       |                                                                           [01;31m[K|[m[K
+[12.905s]       |                                                                           [01;31m[Kstd::shared_ptr<tf2_ros::StaticTransformBroadcaster>[m[K
+[12.955s] [01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/demo_tf/src/dynamic_tf.cpp:[m[K In member function ‘[01m[Kvoid DynamicTFBroadCaster::publish_tf()[m[K’:
+[12.958s] [01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/demo_tf/src/dynamic_tf.cpp:34:27:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[12.958s]    34 |         this->broadcaster_[01;31m[K->[m[KsendTransform(tranform);
+[12.958s]       |                           [01;31m[K^~[m[K
+[16.487s] gmake[2]: *** [CMakeFiles/dynamic_tf_broadcaster.dir/build.make:76：CMakeFiles/dynamic_tf_broadcaster.dir/src/dynamic_tf.cpp.o] 错误 1
+[16.487s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/dynamic_tf_broadcaster.dir/all] 错误 2
+[16.487s] gmake[1]: *** 正在等待未完成的任务....
+[17.423s] [ 75%] [32m[1mLinking CXX executable static_tf_broadcaster[0m
+[18.057s] [ 75%] Built target static_tf_broadcaster
+[18.062s] gmake: *** [Makefile:146：all] 错误 2
+[18.065s] Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf -- -j2 -l2

@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target ServiceClient[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/ServiceClient.dir/src/Service_Client.cpp.o[0m
+[ 75%] Built target ServiceServer
+[100%] [32m[1mLinking CXX executable ServiceClient[0m
+[100%] Built target ServiceClient
+-- Install configuration: ""
+-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/ament_index/resource_index/package_run_dependencies/service
+-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/ament_index/resource_index/parent_prefix_path/service
+-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/environment/ament_prefix_path.sh
+-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/environment/path.sh
+-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/environment/path.dsv
+-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/local_setup.bash
+-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/local_setup.sh
+-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/local_setup.zsh
+-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/local_setup.dsv
+-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/package.dsv
+-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/ament_index/resource_index/packages/service
+-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/cmake/serviceConfig.cmake
+-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/cmake/serviceConfig-version.cmake
+-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/package.xml
+-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/lib/service/ServiceServer
+-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/lib/service/ServiceClient
+-- Set runtime path of "/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/lib/service/ServiceClient" to ""

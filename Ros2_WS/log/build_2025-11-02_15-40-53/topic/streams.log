@@ -1,0 +1,28 @@
+[0.045s] Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic': CMAKE_PREFIX_PATH=/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/opt/ros/humble /usr/bin/cmake --build /home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic -- -j2 -l2
+[0.240s] [35m[1mConsolidate compiler generated dependencies of target TopicPublisher[0m
+[0.422s] [ 25%] [32mBuilding CXX object CMakeFiles/TopicPublisher.dir/src/Topic_Publisher.cpp.o[0m
+[0.440s] [ 75%] Built target TopicSubscriber
+[11.824s] [100%] [32m[1mLinking CXX executable TopicPublisher[0m
+[12.776s] [100%] Built target TopicPublisher
+[12.825s] Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic' returned '0': CMAKE_PREFIX_PATH=/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/opt/ros/humble /usr/bin/cmake --build /home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic -- -j2 -l2
+[12.850s] Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic': CMAKE_PREFIX_PATH=/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/opt/ros/humble /usr/bin/cmake --install /home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic
+[12.881s] -- Install configuration: ""
+[12.881s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/ament_index/resource_index/package_run_dependencies/topic
+[12.882s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/ament_index/resource_index/parent_prefix_path/topic
+[12.882s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/environment/ament_prefix_path.sh
+[12.882s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/environment/ament_prefix_path.dsv
+[12.886s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/environment/path.sh
+[12.886s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/environment/path.dsv
+[12.886s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/local_setup.bash
+[12.886s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/local_setup.sh
+[12.886s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/local_setup.zsh
+[12.886s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/local_setup.dsv
+[12.886s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/package.dsv
+[12.887s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/ament_index/resource_index/packages/topic
+[12.887s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/cmake/topicConfig.cmake
+[12.887s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/cmake/topicConfig-version.cmake
+[12.887s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/package.xml
+[12.887s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/lib/topic/TopicPublisher
+[12.894s] -- Set runtime path of "/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/lib/topic/TopicPublisher" to ""
+[12.894s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/lib/topic/TopicSubscriber
+[12.905s] Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic' returned '0': CMAKE_PREFIX_PATH=/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/opt/ros/humble /usr/bin/cmake --install /home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic

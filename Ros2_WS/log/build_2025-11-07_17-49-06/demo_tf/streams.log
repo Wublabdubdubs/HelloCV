@@ -1,0 +1,56 @@
+[0.032s] Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf -- -j2 -l2
+[0.232s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.772s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.922s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.942s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.971s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.994s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.042s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.169s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.178s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.545s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.676s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.997s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.010s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.012s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.021s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.194s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.195s] -- Configured cppcheck include dirs: 
+[2.196s] -- Configured cppcheck exclude dirs and/or files: 
+[2.196s] -- Added test 'lint_cmake' to check CMake code style
+[2.198s] -- Added test 'uncrustify' to check C / C++ code style
+[2.199s] -- Configured uncrustify additional arguments: 
+[2.202s] -- Added test 'xmllint' to check XML markup files
+[2.202s] -- Configuring done
+[2.265s] -- Generating done
+[2.281s] -- Build files have been written to: /home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf
+[2.402s] [35m[1mConsolidate compiler generated dependencies of target static_tf_broadcaster[0m
+[2.421s] [35m[1mConsolidate compiler generated dependencies of target dynamic_tf_broadcaster[0m
+[2.515s] [ 33%] Built target static_tf_broadcaster
+[2.535s] [ 66%] Built target dynamic_tf_broadcaster
+[2.685s] [ 83%] [32mBuilding CXX object CMakeFiles/tf_listener.dir/src/tf_listener.cpp.o[0m
+[41.002s] [100%] [32m[1mLinking CXX executable tf_listener[0m
+[43.327s] [100%] Built target tf_listener
+[43.366s] Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf -- -j2 -l2
+[43.421s] Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf
+[43.464s] -- Install configuration: ""
+[43.466s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/lib/demo_tf/static_tf_broadcaster
+[43.466s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/lib/demo_tf/dynamic_tf_broadcaster
+[43.468s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/lib/demo_tf/tf_listener
+[43.485s] -- Set runtime path of "/home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/lib/demo_tf/tf_listener" to ""
+[43.486s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/ament_index/resource_index/package_run_dependencies/demo_tf
+[43.488s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/ament_index/resource_index/parent_prefix_path/demo_tf
+[43.489s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/environment/ament_prefix_path.sh
+[43.489s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/environment/ament_prefix_path.dsv
+[43.489s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/environment/path.sh
+[43.489s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/environment/path.dsv
+[43.489s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/local_setup.bash
+[43.489s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/local_setup.sh
+[43.490s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/local_setup.zsh
+[43.490s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/local_setup.dsv
+[43.490s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/package.dsv
+[43.490s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/ament_index/resource_index/packages/demo_tf
+[43.490s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/cmake/demo_tfConfig.cmake
+[43.492s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/cmake/demo_tfConfig-version.cmake
+[43.493s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/package.xml
+[43.499s] Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf

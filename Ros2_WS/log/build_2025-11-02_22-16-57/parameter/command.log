@@ -1,0 +1,2 @@
+Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/parameter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/wublabdubdub/Learn/DFG/Ros2_WS/src/parameter -DCMAKE_INSTALL_PREFIX=/home/wublabdubdub/Learn/DFG/Ros2_WS/install/parameter
+Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/parameter' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/wublabdubdub/Learn/DFG/Ros2_WS/src/parameter -DCMAKE_INSTALL_PREFIX=/home/wublabdubdub/Learn/DFG/Ros2_WS/install/parameter

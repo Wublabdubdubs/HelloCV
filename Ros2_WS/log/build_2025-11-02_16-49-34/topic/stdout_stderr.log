@@ -1,0 +1,10 @@
+[ 50%] Built target TopicPublisher
+[35m[1mConsolidate compiler generated dependencies of target TopicSubscriber[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/TopicSubscriber.dir/src/Topic_Subscriber.cpp.o[0m
+[01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/topic/src/Topic_Subscriber.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kmy_interface/msg/Example.hpp: 没有那个文件或目录
+    1 | #include [01;31m[K"my_interface/msg/Example.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/TopicSubscriber.dir/build.make:76：CMakeFiles/TopicSubscriber.dir/src/Topic_Subscriber.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/TopicSubscriber.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

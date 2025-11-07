@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "my_interface__py",
+		"source" : "/home/wublabdubdub/Learn/DFG/Ros2_WS/build/my_interface/my_interface__py"
+	}
+}

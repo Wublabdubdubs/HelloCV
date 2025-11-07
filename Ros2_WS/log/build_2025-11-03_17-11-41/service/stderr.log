@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:41 (install):
+  install does not recognize sub-command DIRECTORIES
+
+[0m
+gmake: *** [Makefile:308：cmake_check_build_system] 错误 1

@@ -1,0 +1,21 @@
+[01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/demo_tf/src/dynamic_tf.cpp:11:30:[m[K [01;31m[Kerror: [m[K‘[01m[KTransformBroadcaster[m[K’ is not a member of ‘[01m[Ktf2_ros[m[K’; did you mean ‘[01m[KStaticTransformBroadcaster[m[K’?
+   11 |     std::shared_ptr<tf2_ros::[01;31m[KTransformBroadcaster[m[K> broadcaster_;
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                              [32m[KStaticTransformBroadcaster[m[K
+[01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/demo_tf/src/dynamic_tf.cpp:11:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   11 |     std::shared_ptr<tf2_ros::TransformBroadcaster[01;31m[K>[m[K broadcaster_;
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/demo_tf/src/dynamic_tf.cpp:[m[K In constructor ‘[01m[KDynamicTFBroadCaster::DynamicTFBroadCaster(std::string)[m[K’:
+[01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/demo_tf/src/dynamic_tf.cpp:17:75:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::shared_ptr<tf2_ros::StaticTransformBroadcaster>[m[K’ to ‘[01m[Kint[m[K’ in assignment
+   17 |         broadcaster_=[01;31m[Kstd::make_shared<tf2_ros::StaticTransformBroadcaster>(this)[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+      |                                                                           [01;31m[K|[m[K
+      |                                                                           [01;31m[Kstd::shared_ptr<tf2_ros::StaticTransformBroadcaster>[m[K
+[01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/demo_tf/src/dynamic_tf.cpp:[m[K In member function ‘[01m[Kvoid DynamicTFBroadCaster::publish_tf()[m[K’:
+[01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/demo_tf/src/dynamic_tf.cpp:34:27:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   34 |         this->broadcaster_[01;31m[K->[m[KsendTransform(tranform);
+      |                           [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/dynamic_tf_broadcaster.dir/build.make:76：CMakeFiles/dynamic_tf_broadcaster.dir/src/dynamic_tf.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/dynamic_tf_broadcaster.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

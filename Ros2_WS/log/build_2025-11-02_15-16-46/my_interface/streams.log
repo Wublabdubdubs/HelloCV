@@ -1,0 +1,227 @@
+[0.018s] Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/my_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wublabdubdub/Learn/DFG/Ros2_WS/src/my_interface -DCMAKE_INSTALL_PREFIX=/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface
+[0.147s] -- The C compiler identification is GNU 11.4.0
+[0.266s] -- The CXX compiler identification is GNU 11.4.0
+[0.281s] -- Detecting C compiler ABI info
+[0.582s] -- Detecting C compiler ABI info - done
+[0.605s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.607s] -- Detecting C compile features
+[0.608s] -- Detecting C compile features - done
+[0.619s] -- Detecting CXX compiler ABI info
+[0.870s] -- Detecting CXX compiler ABI info - done
+[0.881s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.882s] -- Detecting CXX compile features
+[0.883s] -- Detecting CXX compile features - done
+[0.890s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.285s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.441s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.446s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.453s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.512s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.564s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.157s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.590s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.187s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.236s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.240s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.288s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.288s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.291s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.291s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.333s] -- Found PythonExtra: .so  
+[3.403s] -- Added test 'lint_cmake' to check CMake code style
+[3.404s] -- Added test 'xmllint' to check XML markup files
+[3.419s] -- Configuring done
+[3.473s] -- Generating done
+[3.489s] -- Build files have been written to: /home/wublabdubdub/Learn/DFG/Ros2_WS/build/my_interface
+[3.508s] Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/my_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wublabdubdub/Learn/DFG/Ros2_WS/src/my_interface -DCMAKE_INSTALL_PREFIX=/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface
+[3.509s] Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/my_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wublabdubdub/Learn/DFG/Ros2_WS/build/my_interface -- -j2 -l2
+[3.688s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.779s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.714s] [  9%] [32mBuilding C object CMakeFiles/my_interface__rosidl_generator_c.dir/rosidl_generator_c/my_interface/msg/detail/example__functions.c.o[0m
+[4.923s] [  9%] Built target my_interface__cpp
+[5.009s] [ 12%] [32m[1mLinking C shared library libmy_interface__rosidl_generator_c.so[0m
+[5.181s] [ 12%] Built target ament_cmake_python_copy_my_interface
+[5.220s] [ 12%] Built target my_interface__rosidl_generator_c
+[5.266s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.327s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.504s] [ 22%] [32mBuilding CXX object CMakeFiles/my_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interface/msg/detail/dds_fastrtps/example__type_support.cpp.o[0m
+[6.631s] [ 25%] [32mBuilding CXX object CMakeFiles/my_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interface/msg/detail/example__type_support.cpp.o[0m
+[7.739s] [ 29%] [32m[1mLinking CXX shared library libmy_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.888s] [ 32%] [32m[1mLinking CXX shared library libmy_interface__rosidl_typesupport_introspection_cpp.so[0m
+[8.242s] [ 32%] Built target my_interface__rosidl_typesupport_introspection_cpp
+[8.281s] [ 32%] Built target my_interface__rosidl_typesupport_fastrtps_cpp
+[8.372s] [ 35%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.234s] [ 38%] [32mBuilding CXX object CMakeFiles/my_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interface/msg/example__type_support.cpp.o[0m
+[10.181s] [ 41%] [32m[1mLinking CXX shared library libmy_interface__rosidl_typesupport_cpp.so[0m
+[10.414s] [ 41%] Built target my_interface__rosidl_typesupport_cpp
+[11.268s] running egg_info
+[11.269s] creating my_interface.egg-info
+[11.271s] writing my_interface.egg-info/PKG-INFO
+[11.274s] writing dependency_links to my_interface.egg-info/dependency_links.txt
+[11.275s] writing top-level names to my_interface.egg-info/top_level.txt
+[11.275s] writing manifest file 'my_interface.egg-info/SOURCES.txt'
+[11.285s] reading manifest file 'my_interface.egg-info/SOURCES.txt'
+[11.286s] writing manifest file 'my_interface.egg-info/SOURCES.txt'
+[11.444s] [ 41%] Built target ament_cmake_python_build_my_interface_egg
+[11.520s] [ 45%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.429s] [ 48%] [32mBuilding CXX object CMakeFiles/my_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interface/msg/detail/example__type_support_c.cpp.o[0m
+[14.187s] [ 51%] [32m[1mLinking CXX shared library libmy_interface__rosidl_typesupport_fastrtps_c.so[0m
+[14.660s] [ 51%] Built target my_interface__rosidl_typesupport_fastrtps_c
+[14.736s] [ 54%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[15.566s] [ 58%] [32mBuilding C object CMakeFiles/my_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interface/msg/detail/example__type_support.c.o[0m
+[15.762s] [ 61%] [32m[1mLinking C shared library libmy_interface__rosidl_typesupport_introspection_c.so[0m
+[15.982s] [ 61%] Built target my_interface__rosidl_typesupport_introspection_c
+[16.078s] [ 64%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[16.794s] [ 67%] [32mBuilding CXX object CMakeFiles/my_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interface/msg/example__type_support.cpp.o[0m
+[16.897s] [ 70%] [32m[1mLinking CXX shared library libmy_interface__rosidl_typesupport_c.so[0m
+[16.998s] [ 70%] Built target my_interface__rosidl_typesupport_c
+[17.072s] [ 70%] Built target my_interface
+[17.137s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[17.986s] [ 74%] Built target my_interface__py
+[18.082s] [ 77%] [32mBuilding C object CMakeFiles/my_interface__rosidl_generator_py.dir/rosidl_generator_py/my_interface/msg/_example_s.c.o[0m
+[18.417s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/my_interface/libmy_interface__rosidl_generator_py.so[0m
+[18.617s] [ 80%] Built target my_interface__rosidl_generator_py
+[18.740s] [ 83%] [32mBuilding C object CMakeFiles/my_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_interface/_my_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[19.066s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/my_interface/my_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.237s] [ 87%] Built target my_interface__rosidl_typesupport_fastrtps_c__pyext
+[19.378s] [ 90%] [32mBuilding C object CMakeFiles/my_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_interface/_my_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[19.766s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/my_interface/my_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.923s] [ 93%] Built target my_interface__rosidl_typesupport_introspection_c__pyext
+[20.017s] [ 96%] [32mBuilding C object CMakeFiles/my_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_interface/_my_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[20.390s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_interface/my_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[20.565s] [100%] Built target my_interface__rosidl_typesupport_c__pyext
+[20.622s] Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/my_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wublabdubdub/Learn/DFG/Ros2_WS/build/my_interface -- -j2 -l2
+[20.668s] Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/my_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wublabdubdub/Learn/DFG/Ros2_WS/build/my_interface
+[20.729s] -- Install configuration: ""
+[20.734s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/ament_index/resource_index/rosidl_interfaces/my_interface
+[20.736s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface
+[20.737s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg
+[20.737s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/example.h
+[20.738s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/detail
+[20.738s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/detail/example__functions.h
+[20.738s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/detail/example__functions.c
+[20.741s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/detail/example__type_support.h
+[20.741s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/detail/example__struct.h
+[20.741s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/rosidl_generator_c__visibility_control.h
+[20.742s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/environment/library_path.sh
+[20.742s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/environment/library_path.dsv
+[20.742s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/lib/libmy_interface__rosidl_generator_c.so
+[20.745s] -- Set runtime path of "/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/lib/libmy_interface__rosidl_generator_c.so" to ""
+[20.748s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface
+[20.748s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg
+[20.748s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[20.749s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/detail
+[20.749s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/detail/example__rosidl_typesupport_fastrtps_c.h
+[20.750s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/lib/libmy_interface__rosidl_typesupport_fastrtps_c.so
+[20.752s] -- Set runtime path of "/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/lib/libmy_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[20.753s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface
+[20.753s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg
+[20.753s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[20.755s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/detail
+[20.757s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/detail/example__rosidl_typesupport_introspection_c.h
+[20.757s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/detail/example__type_support.c
+[20.758s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/lib/libmy_interface__rosidl_typesupport_introspection_c.so
+[20.762s] -- Set runtime path of "/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/lib/libmy_interface__rosidl_typesupport_introspection_c.so" to ""
+[20.762s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/lib/libmy_interface__rosidl_typesupport_c.so
+[20.764s] -- Set runtime path of "/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/lib/libmy_interface__rosidl_typesupport_c.so" to ""
+[20.765s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface
+[20.765s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg
+[20.765s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[20.765s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/detail
+[20.765s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/detail/example__struct.hpp
+[20.768s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/detail/example__type_support.hpp
+[20.770s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/detail/example__builder.hpp
+[20.771s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/detail/example__traits.hpp
+[20.771s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/example.hpp
+[20.771s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface
+[20.771s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg
+[20.771s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[20.772s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/detail
+[20.772s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/detail/dds_fastrtps
+[20.775s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/detail/example__rosidl_typesupport_fastrtps_cpp.hpp
+[20.775s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/lib/libmy_interface__rosidl_typesupport_fastrtps_cpp.so
+[20.775s] -- Set runtime path of "/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/lib/libmy_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[20.775s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface
+[20.776s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg
+[20.776s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/detail
+[20.777s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/detail/example__type_support.cpp
+[20.777s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/include/my_interface/my_interface/msg/detail/example__rosidl_typesupport_introspection_cpp.hpp
+[20.783s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/lib/libmy_interface__rosidl_typesupport_introspection_cpp.so
+[20.783s] -- Set runtime path of "/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/lib/libmy_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[20.783s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/lib/libmy_interface__rosidl_typesupport_cpp.so
+[20.783s] -- Set runtime path of "/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/lib/libmy_interface__rosidl_typesupport_cpp.so" to ""
+[20.785s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/environment/pythonpath.sh
+[20.785s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/environment/pythonpath.dsv
+[20.787s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info
+[20.787s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info/top_level.txt
+[20.788s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[20.788s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[20.788s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[20.788s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface
+[20.790s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface/__init__.py
+[20.790s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[20.791s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface/_my_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[20.791s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface/_my_interface_s.ep.rosidl_typesupport_introspection_c.c
+[20.791s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface/libmy_interface__rosidl_generator_py.so
+[20.795s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface/_my_interface_s.ep.rosidl_typesupport_c.c
+[20.795s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg
+[20.795s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg/__init__.py
+[20.795s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg/_example_s.c
+[20.795s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg/_example.py
+[20.795s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[20.795s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[20.919s] Listing '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface'...
+[20.919s] Compiling '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface/__init__.py'...
+[20.919s] Listing '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg'...
+[20.920s] Compiling '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg/__init__.py'...
+[20.920s] Compiling '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg/_example.py'...
+[20.933s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[20.934s] -- Set runtime path of "/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[20.934s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[20.936s] -- Set runtime path of "/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[20.936s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[20.937s] -- Set runtime path of "/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[20.938s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/lib/libmy_interface__rosidl_generator_py.so
+[20.941s] -- Set runtime path of "/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/lib/libmy_interface__rosidl_generator_py.so" to ""
+[20.941s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/msg/Example.idl
+[20.941s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/msg/Example.msg
+[20.941s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/ament_index/resource_index/package_run_dependencies/my_interface
+[20.942s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/ament_index/resource_index/parent_prefix_path/my_interface
+[20.944s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/environment/ament_prefix_path.sh
+[20.944s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/environment/ament_prefix_path.dsv
+[20.944s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/environment/path.sh
+[20.944s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/environment/path.dsv
+[20.944s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/local_setup.bash
+[20.945s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/local_setup.sh
+[20.945s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/local_setup.zsh
+[20.945s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/local_setup.dsv
+[20.947s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/package.dsv
+[20.947s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/ament_index/resource_index/packages/my_interface
+[20.947s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_cExport.cmake
+[20.948s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_cExport-noconfig.cmake
+[20.948s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[20.948s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[20.948s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_introspection_cExport.cmake
+[20.950s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[20.951s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_cExport.cmake
+[20.951s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_cExport-noconfig.cmake
+[20.951s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_cppExport.cmake
+[20.951s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[20.951s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[20.951s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_introspection_cppExport.cmake
+[20.951s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[20.951s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_cppExport.cmake
+[20.951s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[20.951s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_pyExport.cmake
+[20.957s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_pyExport-noconfig.cmake
+[20.957s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/rosidl_cmake-extras.cmake
+[20.957s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.957s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[20.957s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/ament_cmake_export_targets-extras.cmake
+[20.957s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[20.957s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.957s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[20.959s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/my_interfaceConfig.cmake
+[20.959s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/cmake/my_interfaceConfig-version.cmake
+[20.960s] -- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/share/my_interface/package.xml
+[20.965s] Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/my_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wublabdubdub/Learn/DFG/Ros2_WS/build/my_interface

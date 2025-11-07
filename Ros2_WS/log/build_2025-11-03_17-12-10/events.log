@@ -1,0 +1,238 @@
+[0.000000] (-) TimerEvent: {}
+[0.000965] (-) JobUnselected: {'identifier': 'my_interface'}
+[0.000999] (-) JobUnselected: {'identifier': 'parameter'}
+[0.001011] (-) JobUnselected: {'identifier': 'topic'}
+[0.001022] (service) JobQueued: {'identifier': 'service', 'dependencies': OrderedDict()}
+[0.001034] (service) JobStarted: {'identifier': 'service'}
+[0.011401] (service) JobProgress: {'identifier': 'service', 'progress': 'cmake'}
+[0.011440] (service) JobProgress: {'identifier': 'service', 'progress': 'build'}
+[0.013800] (service) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/service', '--', '-j2', '-l2'], 'cwd': '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'wublabdubdub'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wublabdubdub'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/wublabdubdub/Learn/DFG'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1274'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'wublabdubdub'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wublabdubdub'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/wublabdubdub-virtual-machine:@/tmp/.ICE-unix/1182,unix/wublabdubdub-virtual-machine:/tmp/.ICE-unix/1182'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c3a851e6_6879_4391_ab15_52afb945633c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1ZR6E3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7a350d8b12.sock'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/parameter:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/service'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/parameter:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface:/opt/ros/humble')]), 'shell': False}
+[0.045561] (service) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100301] (-) TimerEvent: {}
+[0.168990] (service) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.190280] (service) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.192281] (service) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.196429] (service) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.200389] (-) TimerEvent: {}
+[0.204169] (service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.214158] (service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.233803] (service) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.236144] (service) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.300525] (-) TimerEvent: {}
+[0.364638] (service) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.401996] (-) TimerEvent: {}
+[0.459339] (service) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[0.505547] (-) TimerEvent: {}
+[0.553375] (service) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.605663] (-) TimerEvent: {}
+[0.707424] (-) TimerEvent: {}
+[0.771231] (service) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.771970] (service) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.772073] (service) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.775313] (service) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.778589] (service) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.778787] (service) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.780044] (service) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.780170] (service) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.780806] (service) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.788770] (service) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.808570] (-) TimerEvent: {}
+[0.857995] (service) StdoutLine: {'line': b'-- Generating done\n'}
+[0.885472] (service) StdoutLine: {'line': b'-- Build files have been written to: /home/wublabdubdub/Learn/DFG/Ros2_WS/build/service\n'}
+[0.910527] (-) TimerEvent: {}
+[0.986276] (service) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ServiceServer\x1b[0m\n'}
+[1.000811] (service) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ServiceClient\x1b[0m\n'}
+[1.012347] (-) TimerEvent: {}
+[1.059543] (service) StdoutLine: {'line': b'[ 50%] Built target ServiceServer\n'}
+[1.095689] (service) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ServiceClient.dir/src/Service_Client.cpp.o\x1b[0m\n'}
+[1.113015] (-) TimerEvent: {}
+[1.214340] (-) TimerEvent: {}
+[1.317483] (-) TimerEvent: {}
+[1.418954] (-) TimerEvent: {}
+[1.520179] (-) TimerEvent: {}
+[1.620947] (-) TimerEvent: {}
+[1.723119] (-) TimerEvent: {}
+[1.826341] (-) TimerEvent: {}
+[1.928029] (-) TimerEvent: {}
+[2.031586] (-) TimerEvent: {}
+[2.132419] (-) TimerEvent: {}
+[2.236389] (-) TimerEvent: {}
+[2.339188] (-) TimerEvent: {}
+[2.441340] (-) TimerEvent: {}
+[2.542855] (-) TimerEvent: {}
+[2.644296] (-) TimerEvent: {}
+[2.746219] (-) TimerEvent: {}
+[2.848206] (-) TimerEvent: {}
+[2.949526] (-) TimerEvent: {}
+[3.050626] (-) TimerEvent: {}
+[3.152710] (-) TimerEvent: {}
+[3.254318] (-) TimerEvent: {}
+[3.355629] (-) TimerEvent: {}
+[3.458400] (-) TimerEvent: {}
+[3.559025] (-) TimerEvent: {}
+[3.663576] (-) TimerEvent: {}
+[3.764691] (-) TimerEvent: {}
+[3.865770] (-) TimerEvent: {}
+[3.969063] (-) TimerEvent: {}
+[4.070028] (-) TimerEvent: {}
+[4.171458] (-) TimerEvent: {}
+[4.272324] (-) TimerEvent: {}
+[4.372894] (-) TimerEvent: {}
+[4.473853] (-) TimerEvent: {}
+[4.576312] (-) TimerEvent: {}
+[4.677924] (-) TimerEvent: {}
+[4.783203] (-) TimerEvent: {}
+[4.883665] (-) TimerEvent: {}
+[4.985886] (-) TimerEvent: {}
+[5.087327] (-) TimerEvent: {}
+[5.188157] (-) TimerEvent: {}
+[5.289972] (-) TimerEvent: {}
+[5.392080] (-) TimerEvent: {}
+[5.493586] (-) TimerEvent: {}
+[5.594558] (-) TimerEvent: {}
+[5.697111] (-) TimerEvent: {}
+[5.799096] (-) TimerEvent: {}
+[5.900591] (-) TimerEvent: {}
+[6.001060] (-) TimerEvent: {}
+[6.101903] (-) TimerEvent: {}
+[6.203226] (-) TimerEvent: {}
+[6.305682] (-) TimerEvent: {}
+[6.406850] (-) TimerEvent: {}
+[6.510569] (-) TimerEvent: {}
+[6.612730] (-) TimerEvent: {}
+[6.714857] (-) TimerEvent: {}
+[6.815760] (-) TimerEvent: {}
+[6.916916] (-) TimerEvent: {}
+[7.018488] (-) TimerEvent: {}
+[7.120612] (-) TimerEvent: {}
+[7.222012] (-) TimerEvent: {}
+[7.322696] (-) TimerEvent: {}
+[7.424114] (-) TimerEvent: {}
+[7.525892] (-) TimerEvent: {}
+[7.627832] (-) TimerEvent: {}
+[7.730865] (-) TimerEvent: {}
+[7.833459] (-) TimerEvent: {}
+[7.935265] (-) TimerEvent: {}
+[8.036336] (-) TimerEvent: {}
+[8.137716] (-) TimerEvent: {}
+[8.239717] (-) TimerEvent: {}
+[8.341265] (-) TimerEvent: {}
+[8.442461] (-) TimerEvent: {}
+[8.543202] (-) TimerEvent: {}
+[8.644176] (-) TimerEvent: {}
+[8.746181] (-) TimerEvent: {}
+[8.848019] (-) TimerEvent: {}
+[8.951265] (-) TimerEvent: {}
+[9.052252] (-) TimerEvent: {}
+[9.154176] (-) TimerEvent: {}
+[9.255846] (-) TimerEvent: {}
+[9.357121] (-) TimerEvent: {}
+[9.458924] (-) TimerEvent: {}
+[9.560225] (-) TimerEvent: {}
+[9.661725] (-) TimerEvent: {}
+[9.764043] (-) TimerEvent: {}
+[9.864967] (-) TimerEvent: {}
+[9.967790] (-) TimerEvent: {}
+[10.069985] (-) TimerEvent: {}
+[10.171150] (-) TimerEvent: {}
+[10.275148] (-) TimerEvent: {}
+[10.376649] (-) TimerEvent: {}
+[10.477952] (-) TimerEvent: {}
+[10.579826] (-) TimerEvent: {}
+[10.682728] (-) TimerEvent: {}
+[10.784970] (-) TimerEvent: {}
+[10.887064] (-) TimerEvent: {}
+[10.989216] (-) TimerEvent: {}
+[11.091365] (-) TimerEvent: {}
+[11.193065] (-) TimerEvent: {}
+[11.294625] (-) TimerEvent: {}
+[11.397008] (-) TimerEvent: {}
+[11.499419] (-) TimerEvent: {}
+[11.604653] (-) TimerEvent: {}
+[11.705165] (-) TimerEvent: {}
+[11.807432] (-) TimerEvent: {}
+[11.909851] (-) TimerEvent: {}
+[12.011878] (-) TimerEvent: {}
+[12.116508] (-) TimerEvent: {}
+[12.219127] (-) TimerEvent: {}
+[12.324232] (-) TimerEvent: {}
+[12.425266] (-) TimerEvent: {}
+[12.527501] (-) TimerEvent: {}
+[12.627960] (-) TimerEvent: {}
+[12.730400] (-) TimerEvent: {}
+[12.832005] (-) TimerEvent: {}
+[12.933467] (-) TimerEvent: {}
+[13.034512] (-) TimerEvent: {}
+[13.136355] (-) TimerEvent: {}
+[13.237766] (-) TimerEvent: {}
+[13.339150] (-) TimerEvent: {}
+[13.439837] (-) TimerEvent: {}
+[13.540811] (-) TimerEvent: {}
+[13.642191] (-) TimerEvent: {}
+[13.742928] (-) TimerEvent: {}
+[13.844542] (-) TimerEvent: {}
+[13.945157] (-) TimerEvent: {}
+[14.046236] (-) TimerEvent: {}
+[14.147739] (-) TimerEvent: {}
+[14.250231] (-) TimerEvent: {}
+[14.352317] (-) TimerEvent: {}
+[14.455336] (-) TimerEvent: {}
+[14.556426] (-) TimerEvent: {}
+[14.664020] (-) TimerEvent: {}
+[14.765305] (-) TimerEvent: {}
+[14.866787] (-) TimerEvent: {}
+[14.969219] (-) TimerEvent: {}
+[15.071508] (-) TimerEvent: {}
+[15.172885] (-) TimerEvent: {}
+[15.276288] (-) TimerEvent: {}
+[15.377188] (-) TimerEvent: {}
+[15.479127] (-) TimerEvent: {}
+[15.580698] (-) TimerEvent: {}
+[15.683041] (-) TimerEvent: {}
+[15.783958] (-) TimerEvent: {}
+[15.885858] (-) TimerEvent: {}
+[15.987457] (-) TimerEvent: {}
+[16.088357] (-) TimerEvent: {}
+[16.189247] (-) TimerEvent: {}
+[16.290201] (-) TimerEvent: {}
+[16.391111] (-) TimerEvent: {}
+[16.491981] (-) TimerEvent: {}
+[16.594483] (-) TimerEvent: {}
+[16.695290] (-) TimerEvent: {}
+[16.797296] (-) TimerEvent: {}
+[16.864821] (service) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ServiceClient\x1b[0m\n'}
+[16.899080] (-) TimerEvent: {}
+[17.000279] (-) TimerEvent: {}
+[17.102028] (-) TimerEvent: {}
+[17.204288] (-) TimerEvent: {}
+[17.305376] (-) TimerEvent: {}
+[17.398223] (service) StdoutLine: {'line': b'[100%] Built target ServiceClient\n'}
+[17.405924] (-) TimerEvent: {}
+[17.430349] (service) CommandEnded: {'returncode': 0}
+[17.430894] (service) JobProgress: {'identifier': 'service', 'progress': 'install'}
+[17.453541] (service) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/service'], 'cwd': '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'wublabdubdub'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wublabdubdub'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/wublabdubdub/Learn/DFG'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1274'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'wublabdubdub'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wublabdubdub'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/wublabdubdub-virtual-machine:@/tmp/.ICE-unix/1182,unix/wublabdubdub-virtual-machine:/tmp/.ICE-unix/1182'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c3a851e6_6879_4391_ab15_52afb945633c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1ZR6E3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7a350d8b12.sock'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/parameter:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/service'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/parameter:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface:/opt/ros/humble')]), 'shell': False}
+[17.474761] (service) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.478044] (service) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/ament_index/resource_index/package_run_dependencies/service\n'}
+[17.478291] (service) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/ament_index/resource_index/parent_prefix_path/service\n'}
+[17.480479] (service) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/environment/ament_prefix_path.sh\n'}
+[17.480671] (service) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/environment/ament_prefix_path.dsv\n'}
+[17.481216] (service) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/environment/path.sh\n'}
+[17.481327] (service) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/environment/path.dsv\n'}
+[17.481404] (service) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/local_setup.bash\n'}
+[17.481472] (service) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/local_setup.sh\n'}
+[17.481538] (service) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/local_setup.zsh\n'}
+[17.481620] (service) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/local_setup.dsv\n'}
+[17.481686] (service) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/package.dsv\n'}
+[17.481752] (service) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/ament_index/resource_index/packages/service\n'}
+[17.481901] (service) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/cmake/serviceConfig.cmake\n'}
+[17.481981] (service) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/cmake/serviceConfig-version.cmake\n'}
+[17.482053] (service) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share/service/package.xml\n'}
+[17.486079] (service) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/lib/service/ServiceServer\n'}
+[17.489153] (service) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/lib/service/ServiceClient\n'}
+[17.490137] (service) StdoutLine: {'line': b'-- Set runtime path of "/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/lib/service/ServiceClient" to ""\n'}
+[17.490353] (service) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share//launch\n'}
+[17.490618] (service) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/service/share//launch/my.launch.py\n'}
+[17.497651] (service) CommandEnded: {'returncode': 0}
+[17.508160] (-) TimerEvent: {}
+[17.526867] (service) JobEnded: {'identifier': 'service', 'rc': 0}
+[17.528506] (-) EventReactorShutdown: {}

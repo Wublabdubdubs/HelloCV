@@ -1,0 +1,246 @@
+[0.000000] (-) TimerEvent: {}
+[0.003084] (-) JobUnselected: {'identifier': 'service'}
+[0.003186] (topic) JobQueued: {'identifier': 'topic', 'dependencies': OrderedDict()}
+[0.003221] (topic) JobStarted: {'identifier': 'topic'}
+[0.034755] (topic) JobProgress: {'identifier': 'topic', 'progress': 'cmake'}
+[0.038619] (topic) JobProgress: {'identifier': 'topic', 'progress': 'build'}
+[0.038878] (topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic', '--', '-j2', '-l2'], 'cwd': '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'wublabdubdub'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wublabdubdub'), ('OLDPWD', '/home/wublabdubdub'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1262'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'wublabdubdub'), ('http_proxy', 'http://192.168.206.112:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wublabdubdub'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/wublabdubdub-virtual-machine:@/tmp/.ICE-unix/1222,unix/wublabdubdub-virtual-machine:/tmp/.ICE-unix/1222'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08c09228_66e3_4cfc_9412_53f2def718f7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9B6LF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.235'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.206.112:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/opt/ros/humble')]), 'shell': False}
+[0.100075] (-) TimerEvent: {}
+[0.111471] (topic) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.201115] (-) TimerEvent: {}
+[0.301956] (-) TimerEvent: {}
+[0.403334] (-) TimerEvent: {}
+[0.440635] (topic) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.483632] (topic) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.486224] (topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.497388] (topic) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.503617] (-) TimerEvent: {}
+[0.514910] (topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.540405] (topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.606377] (-) TimerEvent: {}
+[0.612661] (topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.616875] (topic) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.706575] (-) TimerEvent: {}
+[0.808977] (-) TimerEvent: {}
+[0.868259] (topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.909578] (-) TimerEvent: {}
+[0.955809] (topic) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.010368] (-) TimerEvent: {}
+[1.111111] (-) TimerEvent: {}
+[1.113959] (topic) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.114650] (topic) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.114780] (topic) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.115767] (topic) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.118042] (topic) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.118218] (topic) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.118347] (topic) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.121852] (topic) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.146196] (topic) StdoutLine: {'line': b'-- Generating done\n'}
+[1.156477] (topic) StdoutLine: {'line': b'-- Build files have been written to: /home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic\n'}
+[1.211467] (-) TimerEvent: {}
+[1.259343] (topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target TopicPublisher\x1b[0m\n'}
+[1.291254] (topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/TopicSubscriber.dir/src/Topic_Subscriber.cpp.o\x1b[0m\n'}
+[1.307853] (topic) StdoutLine: {'line': b'[ 75%] Built target TopicPublisher\n'}
+[1.312536] (-) TimerEvent: {}
+[1.415405] (-) TimerEvent: {}
+[1.515940] (-) TimerEvent: {}
+[1.618180] (-) TimerEvent: {}
+[1.718915] (-) TimerEvent: {}
+[1.821839] (-) TimerEvent: {}
+[1.922566] (-) TimerEvent: {}
+[2.023730] (-) TimerEvent: {}
+[2.124253] (-) TimerEvent: {}
+[2.224919] (-) TimerEvent: {}
+[2.326590] (-) TimerEvent: {}
+[2.427851] (-) TimerEvent: {}
+[2.528521] (-) TimerEvent: {}
+[2.629832] (-) TimerEvent: {}
+[2.731054] (-) TimerEvent: {}
+[2.832634] (-) TimerEvent: {}
+[2.933863] (-) TimerEvent: {}
+[3.036881] (-) TimerEvent: {}
+[3.138957] (-) TimerEvent: {}
+[3.241621] (-) TimerEvent: {}
+[3.342353] (-) TimerEvent: {}
+[3.443411] (-) TimerEvent: {}
+[3.544726] (-) TimerEvent: {}
+[3.646001] (-) TimerEvent: {}
+[3.747720] (-) TimerEvent: {}
+[3.848614] (-) TimerEvent: {}
+[3.950381] (-) TimerEvent: {}
+[4.051527] (-) TimerEvent: {}
+[4.152609] (-) TimerEvent: {}
+[4.253411] (-) TimerEvent: {}
+[4.354203] (-) TimerEvent: {}
+[4.455100] (-) TimerEvent: {}
+[4.555809] (-) TimerEvent: {}
+[4.657241] (-) TimerEvent: {}
+[4.759075] (-) TimerEvent: {}
+[4.860563] (-) TimerEvent: {}
+[4.962432] (-) TimerEvent: {}
+[5.062963] (-) TimerEvent: {}
+[5.164561] (-) TimerEvent: {}
+[5.266433] (-) TimerEvent: {}
+[5.367850] (-) TimerEvent: {}
+[5.470381] (-) TimerEvent: {}
+[5.572332] (-) TimerEvent: {}
+[5.673489] (-) TimerEvent: {}
+[5.774414] (-) TimerEvent: {}
+[5.876021] (-) TimerEvent: {}
+[5.977859] (-) TimerEvent: {}
+[6.079170] (-) TimerEvent: {}
+[6.180504] (-) TimerEvent: {}
+[6.281875] (-) TimerEvent: {}
+[6.384027] (-) TimerEvent: {}
+[6.485760] (-) TimerEvent: {}
+[6.587007] (-) TimerEvent: {}
+[6.687939] (-) TimerEvent: {}
+[6.789735] (-) TimerEvent: {}
+[6.891392] (-) TimerEvent: {}
+[6.993681] (-) TimerEvent: {}
+[7.094822] (-) TimerEvent: {}
+[7.197595] (-) TimerEvent: {}
+[7.299998] (-) TimerEvent: {}
+[7.401089] (-) TimerEvent: {}
+[7.502971] (-) TimerEvent: {}
+[7.604458] (-) TimerEvent: {}
+[7.705886] (-) TimerEvent: {}
+[7.807853] (-) TimerEvent: {}
+[7.909477] (-) TimerEvent: {}
+[8.012508] (-) TimerEvent: {}
+[8.113225] (-) TimerEvent: {}
+[8.215203] (-) TimerEvent: {}
+[8.316219] (-) TimerEvent: {}
+[8.418065] (-) TimerEvent: {}
+[8.519500] (-) TimerEvent: {}
+[8.621097] (-) TimerEvent: {}
+[8.721987] (-) TimerEvent: {}
+[8.822621] (-) TimerEvent: {}
+[8.923865] (-) TimerEvent: {}
+[9.025365] (-) TimerEvent: {}
+[9.125927] (-) TimerEvent: {}
+[9.227645] (-) TimerEvent: {}
+[9.329832] (-) TimerEvent: {}
+[9.431763] (-) TimerEvent: {}
+[9.532975] (-) TimerEvent: {}
+[9.634736] (-) TimerEvent: {}
+[9.735686] (-) TimerEvent: {}
+[9.836394] (-) TimerEvent: {}
+[9.937501] (-) TimerEvent: {}
+[10.038040] (-) TimerEvent: {}
+[10.139026] (-) TimerEvent: {}
+[10.239731] (-) TimerEvent: {}
+[10.341144] (-) TimerEvent: {}
+[10.442114] (-) TimerEvent: {}
+[10.543452] (-) TimerEvent: {}
+[10.644447] (-) TimerEvent: {}
+[10.746607] (-) TimerEvent: {}
+[10.847791] (-) TimerEvent: {}
+[10.948441] (-) TimerEvent: {}
+[11.049932] (-) TimerEvent: {}
+[11.150559] (-) TimerEvent: {}
+[11.251458] (-) TimerEvent: {}
+[11.352909] (-) TimerEvent: {}
+[11.454446] (-) TimerEvent: {}
+[11.555782] (-) TimerEvent: {}
+[11.658030] (-) TimerEvent: {}
+[11.759199] (-) TimerEvent: {}
+[11.861667] (-) TimerEvent: {}
+[11.963368] (-) TimerEvent: {}
+[12.064205] (-) TimerEvent: {}
+[12.165148] (-) TimerEvent: {}
+[12.267155] (-) TimerEvent: {}
+[12.368781] (-) TimerEvent: {}
+[12.469782] (-) TimerEvent: {}
+[12.571031] (-) TimerEvent: {}
+[12.672243] (-) TimerEvent: {}
+[12.773357] (-) TimerEvent: {}
+[12.874360] (-) TimerEvent: {}
+[12.975436] (-) TimerEvent: {}
+[13.076097] (-) TimerEvent: {}
+[13.177007] (-) TimerEvent: {}
+[13.279387] (-) TimerEvent: {}
+[13.381722] (-) TimerEvent: {}
+[13.483113] (-) TimerEvent: {}
+[13.585001] (-) TimerEvent: {}
+[13.686574] (-) TimerEvent: {}
+[13.787598] (-) TimerEvent: {}
+[13.890360] (-) TimerEvent: {}
+[13.992334] (-) TimerEvent: {}
+[14.093451] (-) TimerEvent: {}
+[14.194457] (-) TimerEvent: {}
+[14.295746] (-) TimerEvent: {}
+[14.397063] (-) TimerEvent: {}
+[14.498150] (-) TimerEvent: {}
+[14.599648] (-) TimerEvent: {}
+[14.700201] (-) TimerEvent: {}
+[14.801392] (-) TimerEvent: {}
+[14.904674] (-) TimerEvent: {}
+[15.005686] (-) TimerEvent: {}
+[15.106744] (-) TimerEvent: {}
+[15.207644] (-) TimerEvent: {}
+[15.308896] (-) TimerEvent: {}
+[15.409723] (-) TimerEvent: {}
+[15.512430] (-) TimerEvent: {}
+[15.613405] (-) TimerEvent: {}
+[15.714378] (-) TimerEvent: {}
+[15.815720] (-) TimerEvent: {}
+[15.917921] (-) TimerEvent: {}
+[16.018984] (-) TimerEvent: {}
+[16.120075] (-) TimerEvent: {}
+[16.221074] (-) TimerEvent: {}
+[16.322451] (-) TimerEvent: {}
+[16.423456] (-) TimerEvent: {}
+[16.524552] (-) TimerEvent: {}
+[16.625993] (-) TimerEvent: {}
+[16.727411] (-) TimerEvent: {}
+[16.829244] (-) TimerEvent: {}
+[16.931228] (-) TimerEvent: {}
+[17.032401] (-) TimerEvent: {}
+[17.133396] (-) TimerEvent: {}
+[17.235632] (-) TimerEvent: {}
+[17.340617] (-) TimerEvent: {}
+[17.443733] (-) TimerEvent: {}
+[17.544697] (-) TimerEvent: {}
+[17.649439] (-) TimerEvent: {}
+[17.750037] (-) TimerEvent: {}
+[17.850795] (-) TimerEvent: {}
+[17.953576] (-) TimerEvent: {}
+[18.054856] (-) TimerEvent: {}
+[18.155319] (-) TimerEvent: {}
+[18.216093] (topic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable TopicSubscriber\x1b[0m\n'}
+[18.256133] (-) TimerEvent: {}
+[18.356645] (-) TimerEvent: {}
+[18.458550] (-) TimerEvent: {}
+[18.560387] (-) TimerEvent: {}
+[18.662349] (-) TimerEvent: {}
+[18.764066] (-) TimerEvent: {}
+[18.864549] (-) TimerEvent: {}
+[18.965791] (-) TimerEvent: {}
+[19.016225] (topic) StdoutLine: {'line': b'[100%] Built target TopicSubscriber\n'}
+[19.055056] (topic) CommandEnded: {'returncode': 0}
+[19.056600] (topic) JobProgress: {'identifier': 'topic', 'progress': 'install'}
+[19.065956] (-) TimerEvent: {}
+[19.079089] (topic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic'], 'cwd': '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'wublabdubdub'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wublabdubdub'), ('OLDPWD', '/home/wublabdubdub'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1262'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'wublabdubdub'), ('http_proxy', 'http://192.168.206.112:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wublabdubdub'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/wublabdubdub-virtual-machine:@/tmp/.ICE-unix/1222,unix/wublabdubdub-virtual-machine:/tmp/.ICE-unix/1222'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08c09228_66e3_4cfc_9412_53f2def718f7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9B6LF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.235'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.206.112:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/opt/ros/humble')]), 'shell': False}
+[19.099787] (topic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.100134] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/ament_index/resource_index/package_run_dependencies/topic\n'}
+[19.100231] (topic) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/ament_index/resource_index/parent_prefix_path/topic\n'}
+[19.101215] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/environment/ament_prefix_path.sh\n'}
+[19.101351] (topic) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/environment/ament_prefix_path.dsv\n'}
+[19.101586] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/environment/path.sh\n'}
+[19.101710] (topic) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/environment/path.dsv\n'}
+[19.101805] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/local_setup.bash\n'}
+[19.101889] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/local_setup.sh\n'}
+[19.104330] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/local_setup.zsh\n'}
+[19.104551] (topic) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/local_setup.dsv\n'}
+[19.104657] (topic) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/package.dsv\n'}
+[19.104739] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/ament_index/resource_index/packages/topic\n'}
+[19.104821] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/cmake/topicConfig.cmake\n'}
+[19.104913] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/cmake/topicConfig-version.cmake\n'}
+[19.104991] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/share/topic/package.xml\n'}
+[19.105067] (topic) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/lib/topic/TopicPublisher\n'}
+[19.105142] (topic) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/lib/topic/TopicSubscriber\n'}
+[19.112132] (topic) StdoutLine: {'line': b'-- Set runtime path of "/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic/lib/topic/TopicSubscriber" to ""\n'}
+[19.115315] (topic) CommandEnded: {'returncode': 0}
+[19.153616] (topic) JobEnded: {'identifier': 'topic', 'rc': 0}
+[19.156611] (-) EventReactorShutdown: {}

@@ -1,0 +1,12 @@
+[0.076s] Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic': CMAKE_PREFIX_PATH=/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/opt/ros/humble /usr/bin/cmake --build /home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic -- -j2 -l2
+[0.259s] [ 50%] Built target TopicPublisher
+[0.313s] [35m[1mConsolidate compiler generated dependencies of target TopicSubscriber[0m
+[0.407s] [ 75%] [32mBuilding CXX object CMakeFiles/TopicSubscriber.dir/src/Topic_Subscriber.cpp.o[0m
+[0.431s] [01m[K/home/wublabdubdub/Learn/DFG/Ros2_WS/src/topic/src/Topic_Subscriber.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kmy_interface/msg/Example.hpp: 没有那个文件或目录
+[0.431s]     1 | #include [01;31m[K"my_interface/msg/Example.hpp"[m[K
+[0.431s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.431s] compilation terminated.
+[0.431s] gmake[2]: *** [CMakeFiles/TopicSubscriber.dir/build.make:76：CMakeFiles/TopicSubscriber.dir/src/Topic_Subscriber.cpp.o] 错误 1
+[0.431s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/TopicSubscriber.dir/all] 错误 2
+[0.431s] gmake: *** [Makefile:146：all] 错误 2
+[0.431s] Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic' returned '2': CMAKE_PREFIX_PATH=/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/opt/ros/humble /usr/bin/cmake --build /home/wublabdubdub/Learn/DFG/Ros2_WS/build/topic -- -j2 -l2

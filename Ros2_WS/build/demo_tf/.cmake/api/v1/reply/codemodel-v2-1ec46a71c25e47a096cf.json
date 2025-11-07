@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4f064f684c3189d78042.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "demo_tf",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "demo_tf_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo_tf_uninstall-6df79bdd18cda2c18939.json",
+					"name" : "demo_tf_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamic_tf_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamic_tf_broadcaster-135ff0c1f8df75eab44b.json",
+					"name" : "dynamic_tf_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "static_tf_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-static_tf_broadcaster-7901c9b808821164ee59.json",
+					"name" : "static_tf_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf_listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf_listener-ef31d4ba70d0ecc80fb0.json",
+					"name" : "tf_listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8c98c129082cec9aee41.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf",
+		"source" : "/home/wublabdubdub/Learn/DFG/Ros2_WS/src/demo_tf"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
