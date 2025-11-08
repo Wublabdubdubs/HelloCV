@@ -1,0 +1,186 @@
+[0.000000] (-) TimerEvent: {}
+[0.024250] (-) JobUnselected: {'identifier': 'my_interface'}
+[0.024344] (-) JobUnselected: {'identifier': 'parameter'}
+[0.024402] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.024518] (-) JobUnselected: {'identifier': 'service'}
+[0.024591] (-) JobUnselected: {'identifier': 'topic'}
+[0.024653] (demo_tf) JobQueued: {'identifier': 'demo_tf', 'dependencies': OrderedDict()}
+[0.024723] (demo_tf) JobStarted: {'identifier': 'demo_tf'}
+[0.113174] (-) TimerEvent: {}
+[0.221142] (-) TimerEvent: {}
+[0.301421] (demo_tf) JobProgress: {'identifier': 'demo_tf', 'progress': 'cmake'}
+[0.335335] (demo_tf) JobProgress: {'identifier': 'demo_tf', 'progress': 'build'}
+[0.335579] (-) TimerEvent: {}
+[0.348926] (demo_tf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf', '--', '-j2', '-l2'], 'cwd': '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'wublabdubdub'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wublabdubdub'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/wublabdubdub/Learn/DFG/Ros2_WS/src'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1275'), ('BUNDLED_DEBUGPY_PATH', '/home/wublabdubdub/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'wublabdubdub'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wublabdubdub'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/wublabdubdub/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/wublabdubdub-virtual-machine:@/tmp/.ICE-unix/1228,unix/wublabdubdub-virtual-machine:/tmp/.ICE-unix/1228'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e3e49215_35e5_4f4f_8557_35962e91cbfa'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/wublabdubdub/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-10fb1a4408edaf18.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/wublabdubdub/.config/Code/User/workspaceStorage/da1ffa76adde7033d99774a56fca7fd4/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J1DHF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7a350d8b12.sock'), ('GNOME_TERMINAL_SERVICE', ':1.182'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/parameter:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/parameter:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf:/opt/ros/humble')]), 'shell': False}
+[0.436512] (-) TimerEvent: {}
+[0.545051] (-) TimerEvent: {}
+[0.662727] (-) TimerEvent: {}
+[0.769973] (-) TimerEvent: {}
+[0.879305] (-) TimerEvent: {}
+[0.959823] (demo_tf) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.986652] (-) TimerEvent: {}
+[1.089582] (-) TimerEvent: {}
+[1.197007] (-) TimerEvent: {}
+[1.304117] (-) TimerEvent: {}
+[1.418760] (-) TimerEvent: {}
+[1.530250] (-) TimerEvent: {}
+[1.638892] (-) TimerEvent: {}
+[1.745230] (-) TimerEvent: {}
+[1.848229] (-) TimerEvent: {}
+[1.952247] (-) TimerEvent: {}
+[2.060982] (-) TimerEvent: {}
+[2.167936] (-) TimerEvent: {}
+[2.271042] (-) TimerEvent: {}
+[2.376590] (-) TimerEvent: {}
+[2.483163] (-) TimerEvent: {}
+[2.588602] (-) TimerEvent: {}
+[2.673997] (demo_tf) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.691932] (-) TimerEvent: {}
+[2.802948] (-) TimerEvent: {}
+[2.825084] (demo_tf) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.853483] (demo_tf) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.893495] (demo_tf) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.905502] (-) TimerEvent: {}
+[2.993719] (demo_tf) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.010973] (-) TimerEvent: {}
+[3.115241] (-) TimerEvent: {}
+[3.118818] (demo_tf) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.218700] (-) TimerEvent: {}
+[3.321854] (-) TimerEvent: {}
+[3.423277] (-) TimerEvent: {}
+[3.440947] (demo_tf) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.503859] (demo_tf) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.528560] (-) TimerEvent: {}
+[3.637001] (-) TimerEvent: {}
+[3.741034] (-) TimerEvent: {}
+[3.853878] (-) TimerEvent: {}
+[3.965094] (-) TimerEvent: {}
+[4.072961] (-) TimerEvent: {}
+[4.175648] (-) TimerEvent: {}
+[4.286025] (-) TimerEvent: {}
+[4.391772] (-) TimerEvent: {}
+[4.497332] (-) TimerEvent: {}
+[4.605112] (-) TimerEvent: {}
+[4.711003] (-) TimerEvent: {}
+[4.820737] (-) TimerEvent: {}
+[4.925235] (-) TimerEvent: {}
+[4.968272] (demo_tf) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.030120] (-) TimerEvent: {}
+[5.140205] (-) TimerEvent: {}
+[5.246945] (-) TimerEvent: {}
+[5.356830] (-) TimerEvent: {}
+[5.462071] (-) TimerEvent: {}
+[5.571386] (-) TimerEvent: {}
+[5.683915] (-) TimerEvent: {}
+[5.752738] (demo_tf) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[5.784347] (-) TimerEvent: {}
+[5.894153] (-) TimerEvent: {}
+[6.003296] (-) TimerEvent: {}
+[6.114111] (-) TimerEvent: {}
+[6.221218] (-) TimerEvent: {}
+[6.331628] (-) TimerEvent: {}
+[6.436810] (-) TimerEvent: {}
+[6.553372] (-) TimerEvent: {}
+[6.668077] (-) TimerEvent: {}
+[6.773153] (-) TimerEvent: {}
+[6.881778] (-) TimerEvent: {}
+[6.987396] (-) TimerEvent: {}
+[7.048561] (demo_tf) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[7.079893] (demo_tf) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[7.087548] (demo_tf) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[7.087982] (-) TimerEvent: {}
+[7.109594] (demo_tf) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.189707] (-) TimerEvent: {}
+[7.299559] (-) TimerEvent: {}
+[7.402040] (-) TimerEvent: {}
+[7.510789] (-) TimerEvent: {}
+[7.613165] (-) TimerEvent: {}
+[7.716093] (-) TimerEvent: {}
+[7.785588] (demo_tf) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.790739] (demo_tf) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[7.803702] (demo_tf) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.815846] (demo_tf) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.816131] (-) TimerEvent: {}
+[7.828524] (demo_tf) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.828812] (demo_tf) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.843927] (demo_tf) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.847163] (demo_tf) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.847326] (demo_tf) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.862075] (demo_tf) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.925114] (-) TimerEvent: {}
+[8.030512] (-) TimerEvent: {}
+[8.138308] (-) TimerEvent: {}
+[8.243027] (-) TimerEvent: {}
+[8.293566] (demo_tf) StdoutLine: {'line': b'-- Generating done\n'}
+[8.348690] (-) TimerEvent: {}
+[8.360872] (demo_tf) StdoutLine: {'line': b'-- Build files have been written to: /home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf\n'}
+[8.451941] (-) TimerEvent: {}
+[8.558400] (-) TimerEvent: {}
+[8.663897] (-) TimerEvent: {}
+[8.773870] (-) TimerEvent: {}
+[8.877812] (-) TimerEvent: {}
+[8.983705] (-) TimerEvent: {}
+[9.010368] (demo_tf) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target static_tf_broadcaster\x1b[0m\n'}
+[9.087683] (-) TimerEvent: {}
+[9.201696] (-) TimerEvent: {}
+[9.303372] (-) TimerEvent: {}
+[9.402825] (demo_tf) StdoutLine: {'line': b'[ 33%] Built target static_tf_broadcaster\n'}
+[9.406211] (-) TimerEvent: {}
+[9.509213] (-) TimerEvent: {}
+[9.616116] (-) TimerEvent: {}
+[9.723138] (-) TimerEvent: {}
+[9.826862] (-) TimerEvent: {}
+[9.830210] (demo_tf) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dynamic_tf_broadcaster\x1b[0m\n'}
+[9.928596] (-) TimerEvent: {}
+[10.033096] (-) TimerEvent: {}
+[10.141737] (-) TimerEvent: {}
+[10.246233] (-) TimerEvent: {}
+[10.303581] (demo_tf) StdoutLine: {'line': b'[ 66%] Built target dynamic_tf_broadcaster\n'}
+[10.349720] (-) TimerEvent: {}
+[10.456958] (-) TimerEvent: {}
+[10.509673] (demo_tf) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tf_listener\x1b[0m\n'}
+[10.563882] (-) TimerEvent: {}
+[10.669966] (-) TimerEvent: {}
+[10.775810] (-) TimerEvent: {}
+[10.879427] (-) TimerEvent: {}
+[10.985081] (-) TimerEvent: {}
+[11.089362] (-) TimerEvent: {}
+[11.166959] (demo_tf) StdoutLine: {'line': b'[100%] Built target tf_listener\n'}
+[11.191003] (-) TimerEvent: {}
+[11.301588] (-) TimerEvent: {}
+[11.410332] (-) TimerEvent: {}
+[11.439567] (demo_tf) CommandEnded: {'returncode': 0}
+[11.483896] (demo_tf) JobProgress: {'identifier': 'demo_tf', 'progress': 'install'}
+[11.524696] (-) TimerEvent: {}
+[11.632820] (-) TimerEvent: {}
+[11.745159] (-) TimerEvent: {}
+[11.850860] (-) TimerEvent: {}
+[11.882909] (demo_tf) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf'], 'cwd': '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'wublabdubdub'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wublabdubdub'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/wublabdubdub/Learn/DFG/Ros2_WS/src'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1275'), ('BUNDLED_DEBUGPY_PATH', '/home/wublabdubdub/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'wublabdubdub'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wublabdubdub'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/wublabdubdub/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/wublabdubdub-virtual-machine:@/tmp/.ICE-unix/1228,unix/wublabdubdub-virtual-machine:/tmp/.ICE-unix/1228'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e3e49215_35e5_4f4f_8557_35962e91cbfa'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/wublabdubdub/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-10fb1a4408edaf18.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/wublabdubdub/.config/Code/User/workspaceStorage/da1ffa76adde7033d99774a56fca7fd4/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J1DHF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7a350d8b12.sock'), ('GNOME_TERMINAL_SERVICE', ':1.182'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/parameter:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wublabdubdub/Learn/DFG/Ros2_WS/install/topic:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/service:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/parameter:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/my_interface:/home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf:/opt/ros/humble')]), 'shell': False}
+[11.955796] (-) TimerEvent: {}
+[12.009387] (demo_tf) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.019996] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/lib/demo_tf/static_tf_broadcaster\n'}
+[12.025202] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/lib/demo_tf/dynamic_tf_broadcaster\n'}
+[12.043391] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/lib/demo_tf/tf_listener\n'}
+[12.043714] (demo_tf) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/launch\n'}
+[12.057254] (demo_tf) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/launch/tf.launch.py\n'}
+[12.057616] (-) TimerEvent: {}
+[12.058131] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/ament_index/resource_index/package_run_dependencies/demo_tf\n'}
+[12.058297] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/ament_index/resource_index/parent_prefix_path/demo_tf\n'}
+[12.064666] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/environment/ament_prefix_path.sh\n'}
+[12.064956] (demo_tf) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/environment/ament_prefix_path.dsv\n'}
+[12.069734] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/environment/path.sh\n'}
+[12.069941] (demo_tf) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/environment/path.dsv\n'}
+[12.070087] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/local_setup.bash\n'}
+[12.070324] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/local_setup.sh\n'}
+[12.070475] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/local_setup.zsh\n'}
+[12.075624] (demo_tf) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/local_setup.dsv\n'}
+[12.081161] (demo_tf) StdoutLine: {'line': b'-- Installing: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/package.dsv\n'}
+[12.081713] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/ament_index/resource_index/packages/demo_tf\n'}
+[12.086907] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/cmake/demo_tfConfig.cmake\n'}
+[12.092877] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/cmake/demo_tfConfig-version.cmake\n'}
+[12.093267] (demo_tf) StdoutLine: {'line': b'-- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/share/demo_tf/package.xml\n'}
+[12.157855] (demo_tf) CommandEnded: {'returncode': 0}
+[12.159546] (-) TimerEvent: {}
+[12.274711] (-) TimerEvent: {}
+[12.367402] (demo_tf) JobEnded: {'identifier': 'demo_tf', 'rc': 0}
+[12.371815] (-) EventReactorShutdown: {}

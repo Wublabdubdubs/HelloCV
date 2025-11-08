@@ -1,0 +1,47 @@
+[0.147s] Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf -- -j2 -l2
+[0.683s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.667s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[3.034s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.076s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.179s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.341s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.478s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.889s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.921s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.102s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.472s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[6.060s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[6.091s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.112s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.138s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.428s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.428s] -- Configured cppcheck include dirs: 
+[6.428s] -- Configured cppcheck exclude dirs and/or files: 
+[6.440s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.451s] -- Added test 'lint_cmake' to check CMake code style
+[6.459s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.486s] -- Added test 'uncrustify' to check C / C++ code style
+[6.487s] -- Configured uncrustify additional arguments: 
+[6.493s] -- Added test 'xmllint' to check XML markup files
+[6.507s] -- Configuring done
+[6.814s] -- Generating done
+[6.839s] -- Build files have been written to: /home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf
+[7.357s] [35m[1mConsolidate compiler generated dependencies of target static_tf_broadcaster[0m
+[8.012s] [ 33%] Built target static_tf_broadcaster
+[8.250s] [35m[1mConsolidate compiler generated dependencies of target dynamic_tf_broadcaster[0m
+[8.794s] [ 66%] Built target dynamic_tf_broadcaster
+[9.138s] [35m[1mConsolidate compiler generated dependencies of target tf_listener[0m
+[9.707s] [100%] Built target tf_listener
+[9.976s] Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf -- -j2 -l2
+[10.212s] Invoking command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf
+[10.386s] -- Install configuration: ""
+[10.396s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/lib/demo_tf/static_tf_broadcaster
+[10.418s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/lib/demo_tf/dynamic_tf_broadcaster
+[10.435s] -- Up-to-date: /home/wublabdubdub/Learn/DFG/Ros2_WS/install/demo_tf/lib/demo_tf/tf_listener
+[10.440s] [31mCMake Error at cmake_install.cmake:106 (file):
+[10.441s]   file INSTALL cannot find
+[10.441s]   "/home/wublabdubdub/Learn/DFG/Ros2_WS/src/demo_tf/luanch": No such file or
+[10.454s]   directory.
+[10.454s] 
+[10.454s] [0m
+[10.465s] Invoked command in '/home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wublabdubdub/Learn/DFG/Ros2_WS/build/demo_tf

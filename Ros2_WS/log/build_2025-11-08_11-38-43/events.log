@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000254] (-) JobUnselected: {'identifier': 'demo_tf'}
+[0.000288] (-) JobUnselected: {'identifier': 'my_interface'}
+[0.000306] (-) JobUnselected: {'identifier': 'parameter'}
+[0.000321] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.000337] (-) JobUnselected: {'identifier': 'service'}
+[0.000351] (-) JobUnselected: {'identifier': 'topic'}
+[0.001049] (-) EventReactorShutdown: {}
