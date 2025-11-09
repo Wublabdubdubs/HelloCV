@@ -1,17 +1,17 @@
 import launch
 import launch_ros
 
-def generate_luanch_description():
+def generate_launch_description():
 
-    start_static_tf_broadcast =  launch_ros.actions.node(
+    start_static_tf_broadcast =  launch_ros.actions.Node(
         package="demo_tf",
-        excutable="static_tf_broadcaster",
+        executable="static_tf_broadcaster",
         output="log"
     )
 
-    start_dynamic_tf_broadcast = launch_ros.actions.node(
+    start_dynamic_tf_broadcast = launch_ros.actions.Node(
         package="demo_tf",
-        excutable="dynamic_tf_broadcaster",
+        executable="dynamic_tf_broadcaster",
         output="log"
     )
 

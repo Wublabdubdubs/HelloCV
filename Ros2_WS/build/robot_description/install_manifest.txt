@@ -9,6 +9,8 @@
 /home/wublabdubdub/Learn/DFG/Ros2_WS/install/robot_description/share/robot_description/urdf/fishbot/actuator/wheel.urdf.xacro
 /home/wublabdubdub/Learn/DFG/Ros2_WS/install/robot_description/share/robot_description/urdf/fishbot/actuator/caster.urdf.xacro
 /home/wublabdubdub/Learn/DFG/Ros2_WS/install/robot_description/share/robot_description/urdf/fishbot/fishbot.urdf.xacro
+/home/wublabdubdub/Learn/DFG/Ros2_WS/install/robot_description/share/robot_description/urdf/fishbot/plugins/gazebo_sensor_plugin.xacro
+/home/wublabdubdub/Learn/DFG/Ros2_WS/install/robot_description/share/robot_description/urdf/fishbot/plugins/gazebo_control_plugin.xacro
 /home/wublabdubdub/Learn/DFG/Ros2_WS/install/robot_description/share/robot_description/urdf/first_robot.gv
 /home/wublabdubdub/Learn/DFG/Ros2_WS/install/robot_description/share/robot_description/urdf/first_robot.xacro
 /home/wublabdubdub/Learn/DFG/Ros2_WS/install/robot_description/share/robot_description/urdf/first_robot.pdf
